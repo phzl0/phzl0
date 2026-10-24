@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt="Paulo Florencio — Desenvolvimento de Software" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:123c2c&height=170&section=header&text=Paulo%20Florencio&fontSize=40&fontColor=ffffff&fontAlignY=42&desc=ENGENHEIRO DE IA20%7C%DESENVOLVIMENTO%20DE%20SOFTWARE%20%7C%20TECNOLOGIA%20%7C%20SISTEMAS&descSize=13&descAlignY=69&descColor=a3d6b4" width="100%" />
+<img alt="Paulo Florencio — Desenvolvimento de Software" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:123c2c&height=170&section=header&text=Paulo%20Florencio&fontSize=40&fontColor=ffffff&fontAlignY=42&desc=ENGENHEIRO%20DE%20IA20%7C%DESENVOLVIMENTO%20DE%20SOFTWARE%20%7C%20TECNOLOGIA%20%7C%20SISTEMAS&descSize=13&descAlignY=69&descColor=a3d6b4" width="100%" />
 
 **Tecnologia aplicada a soluções, processos e experiências digitais.**
 

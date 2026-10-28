@@ -1,19 +1,19 @@
 <div align="center">
 
-<img src="./assets/matrix-banner.svg" width="100%" alt="Paulo Florencio — Engenheiro de IA, Desenvolvimento de Software, Automação e Sistemas — banner Matrix" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:123c2c&height=170&section=header&text=Paulo%20Florencio&fontSize=40&fontColor=ffffff&fontAlignY=42&desc=ENGENHEIRO%20DE%20IA%20%7C%20DESENVOLVIMENTO%20DE%20SOFTWARE%20%7C%20AUTOMA%C3%87%C3%83O%20%7C%20SISTEMAS&descSize=13&descAlignY=69&descColor=a3d6b4&animation=fadeIn" width="100%" alt="Paulo Florencio — Engenheiro de IA, Desenvolvimento de Software, Automação e Sistemas" />
 
 <img src="https://skillicons.dev/icons?i=java,js,html,css,spring,nodejs,postgres,mysql,mongodb,linux,git,github,docker,python,aws&perline=15&theme=dark" alt="Tecnologias e ferramentas" />
 
-<a href="mailto:pauloalmeida1478965@gmail.com"><img src="https://img.shields.io/badge/Email-263b3b?style=flat-square&logo=gmail&logoColor=9cbbad&labelColor=172526" alt="E-mail" /></a> <a href="tel:+5511978988489"><img src="https://img.shields.io/badge/Telefone-263b3b?style=flat-square&logoColor=9cbbad&labelColor=172526" alt="Telefone" /></a> <a href="https://github.com/phzl0"><img src="https://img.shields.io/badge/GitHub-263b3b?style=flat-square&logo=github&logoColor=9cbbad&labelColor=172526" alt="GitHub" /></a>
-
-**[E-mail](mailto:pauloalmeida1478965@gmail.com) · [WhatsApp / Telefone](tel:+5511978988489) · [GitHub](https://github.com/phzl0)**
+<a href="mailto:pauloalmeida1478965@gmail.com"><img src="https://img.shields.io/badge/E--mail-253b36?style=flat-square&logo=gmail&logoColor=9dbba7&labelColor=14211e" alt="E-mail" /></a>
+<a href="https://wa.me/5511978988489"><img src="https://img.shields.io/badge/WhatsApp-253b36?style=flat-square&logo=whatsapp&logoColor=9dbba7&labelColor=14211e" alt="WhatsApp" /></a>
+<a href="tel:+5511978988489"><img src="https://img.shields.io/badge/Telefone-253b36?style=flat-square&labelColor=14211e" alt="Telefone" /></a>
+<a href="https://github.com/phzl0"><img src="https://img.shields.io/badge/GitHub-253b36?style=flat-square&logo=github&logoColor=9dbba7&labelColor=14211e" alt="GitHub" /></a>
 
 <sub>Desenvolvimento de software · Integração de sistemas · Dados e automação</sub>
 
 [Sobre](#sobre-mim) · [Competências](#competências-técnicas) · [IA](#inteligência-artificial-e-automação) · [Projetos](#projetos) · [Formação](#formação)
 
 </div>
-
 
 ---
 
@@ -25,7 +25,6 @@ Tenho interesse em **desenvolvimento backend, aplicações web, integração de 
 
 Desenvolvo projetos próprios para aprofundar conhecimentos em **arquitetura de software, infraestrutura, integração de serviços e aplicações de inteligência artificial**, com foco em experimentação, documentação e melhoria contínua.
 
-
 ---
 
 ## Competências técnicas
@@ -36,12 +35,12 @@ Desenvolvo projetos próprios para aprofundar conhecimentos em **arquitetura de 
 | **Backend e integrações** | APIs REST, Node.js, integração de sistemas |
 | **Dados** | SQL, PostgreSQL, MySQL, fundamentos de MongoDB |
 | **Ambiente e infraestrutura** | Linux / Ubuntu, Git, GitHub, Docker |
+| **Análise e segurança de aplicações (fundamentos)** | Engenharia reversa, análise de estruturas e fluxos de software |
 | **Operações e produtividade** | Excel, Microsoft Office, ERP, CRM, e-commerce |
 
 **Conhecimentos básicos e em desenvolvimento**
 
 `Python` `Cloud Computing` `AWS` `Arquitetura de sistemas` `APIs e integrações`
-
 
 ---
 
@@ -57,11 +56,11 @@ Estudo os fundamentos e as aplicações de **modelos de linguagem, agentes de IA
 | **RAG — Retrieval-Augmented Generation** | Recuperação de informações externas para fundamentar respostas |
 | **CLI — Command-Line Interface** | Ferramentas de linha de comando, terminal Linux e fluxos de desenvolvimento |
 | **Automação de processos com IA** | Orquestração, integrações e execução de rotinas assistidas por modelos |
+| **Engenharia reversa** | Estudo de como aplicações e sistemas funcionam a partir de sua implementação e comportamento |
 
-**Experimentação prática:** `Ollama` · `Goose` · `Ruflo`
+**Experimentação prática:** `Ollama` · `Goose` · `Ruflo` · [**REA — Reverse Engineering Assistant**](https://github.com/morluto/rea) (estudo de ferramentas e conceitos de engenharia reversa)
 
 <sub>Conhecimentos introdutórios e experimentação prática; esta seção não indica certificação ou especialização profissional nessas tecnologias.</sub>
-
 
 ---
 
@@ -92,7 +91,6 @@ Plataforma de inteligência e gestão profissional pessoal, projetada com **Pyth
 
 <sub>Funcionalidades planejadas, ainda não entregues.</sub>
 
-
 ---
 
 ## Atividade no GitHub
@@ -103,7 +101,6 @@ Plataforma de inteligência e gestão profissional pessoal, projetada com **Pyth
 
 <sub>Indicadores gerados por serviços de terceiros a partir de informações públicas; disponibilidade sujeita ao serviço.</sub>
 
-
 ---
 
 ## Formação
@@ -111,7 +108,6 @@ Plataforma de inteligência e gestão profissional pessoal, projetada com **Pyth
 - **FATEC** — graduação tecnológica em andamento.
 - **Ensino Médio Técnico em Tecnologia da Informação**.
 - **Estudos atuais:** Python, arquitetura backend, bancos de dados, computação em nuvem, agentes de IA e automação.
-
 
 ---
 

@@ -1,113 +1,132 @@
 <div align="center">
 
-<img alt="Paulo Florencio | Software Development & AI" src="https://capsule-render.vercel.app/api?type=waving&color=0:080b13,45:102b2b,100:00b89c&height=205&section=header&text=PAULO%20FLORENCIO&fontSize=39&fontColor=e8fff7&fontAlignY=37&desc=SOFTWARE%20DEVELOPMENT%20%7C%20AI%20%26%20AUTOMATION%20%7C%20SYSTEMS&descSize=14&descAlignY=60&descColor=80ffe1" width="100%" />
+<h1>PAULO FLORENCIO</h1>
 
-**Desenvolvimento de software • Integração de sistemas • Dados e automação**
+<h3>Engenheiro de IA | Desenvolvimento de Software | Automação | Sistemas</h3>
 
-`[ BUILDING SYSTEMS ]` &nbsp; `[ LEARNING BY DOING ]` &nbsp; `[ OPEN SOURCE ]`
+<img src="https://img.shields.io/badge/AI_%26_AUTOMATION-00FFD1?style=for-the-badge&labelColor=0B1020" alt="IA e Automação" />
+<img src="https://img.shields.io/badge/SOFTWARE_DEVELOPMENT-00CFFF?style=for-the-badge&labelColor=0B1020" alt="Desenvolvimento de software" />
+<img src="https://img.shields.io/badge/OPEN_SOURCE-A573FF?style=for-the-badge&labelColor=0B1020" alt="Open Source" />
 
-[Sobre](#sobre-mim) · [Tecnologias](#competências-técnicas) · [IA e automação](#inteligência-artificial-e-automação) · [Projetos](#projetos) · [Formação](#formação)
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=java,js,html,css,spring,nodejs,postgres,mysql,mongodb,linux,git,github,docker,python,aws&perline=8&theme=dark" alt="Tecnologias e ferramentas" />
+
+<br/><br/>
+
+<a href="mailto:pauloalmeida1478965@gmail.com"><img src="https://img.shields.io/badge/EMAIL-PAULOALMEIDA1478965%40GMAIL.COM-00FFD1?style=flat-square&labelColor=101826" alt="Email profissional" /></a>
+<a href="tel:+5511978988489"><img src="https://img.shields.io/badge/TELEFONE-%2B55_11_97898--8489-00CFFF?style=flat-square&labelColor=101826" alt="Telefone" /></a>
+<a href="https://github.com/phzl0"><img src="https://img.shields.io/badge/GITHUB-PHZL0-A573FF?style=flat-square&logo=github&logoColor=white&labelColor=101826" alt="GitHub" /></a>
+
+<br/><br/>
+
+**Tecnologia aplicada a soluções, processos e experiências digitais.**
+
+[Sobre mim](#sobre-mim) • [Competências](#competências-técnicas) • [IA e automação](#inteligência-artificial-e-automação) • [Projetos](#projetos) • [Formação](#formação)
+
+<img src="https://img.shields.io/badge/━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━-00FFD1?style=flat-square&labelColor=00FFD1" alt="Divisor neon" width="90%"/>
 
 </div>
 
----
-
-## <code>01.</code> Sobre mim
+## Sobre mim
 
 Sou estudante de tecnologia na **FATEC**, com formação técnica em Tecnologia da Informação e experiência em operações digitais, e-commerce e processos administrativos.
 
-Tenho interesse em **desenvolvimento backend, aplicações web, integração de APIs, bancos de dados e automação de processos**. Meu objetivo é unir conhecimento técnico à compreensão de problemas reais de negócios.
+Tenho interesse em **desenvolvimento backend, aplicações web, integração de APIs, bancos de dados e automação de processos**, buscando conectar soluções técnicas a necessidades reais de negócios.
 
-Atualmente, desenvolvo projetos próprios para aprofundar conhecimentos em **arquitetura de software, infraestrutura, integração entre serviços e aplicações de inteligência artificial**. Priorizo aprendizado prático, documentação e evolução contínua.
+Desenvolvo projetos próprios para aprofundar conhecimentos em **arquitetura de software, infraestrutura, integração de serviços e aplicações de inteligência artificial**, com foco em experimentação, documentação e melhoria contínua.
 
-## <code>02.</code> Competências técnicas
+---
+
+## Competências técnicas
 
 | Área | Tecnologias e conhecimentos |
 | :--- | :--- |
 | **Desenvolvimento** | Java, JavaScript, HTML, CSS, Spring Boot |
-| **Backend e integrações** | APIs REST, Node.js, integração entre sistemas |
+| **Backend e integrações** | APIs REST, Node.js, integração de sistemas |
 | **Dados** | SQL, PostgreSQL, MySQL, fundamentos de MongoDB |
-| **Infraestrutura e ferramentas** | Linux (Ubuntu), Git, GitHub, Docker |
+| **Ambiente e infraestrutura** | Linux / Ubuntu, Git, GitHub, Docker |
 | **Operações e produtividade** | Excel, Microsoft Office, ERP, CRM, e-commerce |
 
-**Conhecimentos básicos e em estudo**
+**Conhecimentos básicos e em desenvolvimento**
 
 `Python` `Cloud Computing` `AWS` `Arquitetura de sistemas` `APIs e integrações`
 
-<details>
-<summary><b>Visualizar tecnologias</b></summary>
-<br/>
-<img src="https://skillicons.dev/icons?i=java,js,html,css,spring,nodejs,postgres,mysql,mongodb,linux,git,github,docker,python,aws&perline=8" alt="Tecnologias estudadas e utilizadas" />
-</details>
+---
 
-## <code>03.</code> Inteligência artificial e automação
+## Inteligência artificial e automação
 
-Estudo os fundamentos de **modelos de linguagem, agentes de IA e integração de ferramentas** para compreender como aplicar inteligência artificial a processos e aplicações reais.
+Estudo os fundamentos e as aplicações de **modelos de linguagem, agentes de IA, integração de ferramentas e automação inteligente**.
 
-| Conceito | Familiaridade e aplicação em estudo |
+| Conceito | Conhecimentos em desenvolvimento |
 | :--- | :--- |
-| **LLM — Large Language Model** | Fundamentos de modelos de linguagem, inferência e interação via prompts e APIs |
-| **Agentes de IA** | Uso de modelos associados a ferramentas, execução de tarefas e fluxos com supervisão |
-| **MCP — Model Context Protocol** | Conceitos de conexão padronizada entre aplicações de IA, ferramentas e fontes de dados |
-| **RAG — Retrieval-Augmented Generation** | Conceitos de recuperação de informações externas para fundamentar respostas de modelos |
-| **CLI — Command-Line Interface** | Utilização de ferramentas por linha de comando em Linux e fluxos de desenvolvimento |
-| **Automação com IA** | Exploração de integrações, orquestração de tarefas e rotinas assistidas por modelos |
+| **LLM — Large Language Model** | Modelos de linguagem, prompts, inferência e APIs |
+| **Agentes de IA** | Ferramentas, execução supervisionada e fluxos com modelos |
+| **MCP — Model Context Protocol** | Protocolo para conectar aplicações de IA a ferramentas e fontes de dados |
+| **RAG — Retrieval-Augmented Generation** | Recuperação de informações externas para fundamentar respostas |
+| **CLI — Command-Line Interface** | Ferramentas de linha de comando, terminal Linux e fluxos de desenvolvimento |
+| **Automação de processos com IA** | Orquestração, integrações e execução de rotinas assistidas por modelos |
 
-**Exploração prática:** testes e configuração de ferramentas como `Ollama`, `Goose` e `Ruflo`, com interesse em agentes locais, modelos hospedados e sistemas multiagentes.
+**Experimentação prática:** `Ollama` · `Goose` · `Ruflo`
 
-> **Nível atual:** conhecimentos introdutórios e experimentação prática. As tecnologias desta seção representam áreas de estudo, não certificações ou experiência profissional especializada.
+<sub>Conhecimentos introdutórios e experimentação prática; esta seção não indica certificação ou especialização profissional nessas tecnologias.</sub>
 
-## <code>04.</code> Projetos
+---
+
+## Projetos
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/phzl0/Ecommerce">Ecommerce</a></h3>
-<p>Aplicação de comércio eletrônico desenvolvida com Java e Spring Boot, com persistência de dados e funcionalidades de operação comercial.</p>
-<p><b>Foco:</b> backend, banco de dados, segurança e implantação.</p>
+<p>Aplicação de comércio eletrônico em Java e Spring Boot, com persistência de dados e funcionalidades de operação comercial.</p>
+<p><b>Foco:</b> backend, bancos de dados, segurança e implantação.</p>
 <p><b>Status:</b> demonstração funcional; funcionalidades em evolução.</p>
-<a href="https://ecommerce-kbri.onrender.com">Visualizar aplicação</a>
+<a href="https://ecommerce-kbri.onrender.com">Aplicação publicada</a>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/phzl0/QuestLog">Progress Hub</a></h3>
-<p>Plataforma de acompanhamento e engajamento de desenvolvedores, com atividades do GitHub, objetivos, progresso e comunidade.</p>
-<p><b>Foco:</b> aplicações web, integrações e gamificação.</p>
-<p><b>Origem:</b> evolução de projeto open-source (QuestLog).</p>
-<a href="https://progress-hub-ten.vercel.app/">Visualizar aplicação</a>
+<p>Plataforma de acompanhamento e engajamento de desenvolvedores, com atividades do GitHub, progresso, objetivos e comunidade.</p>
+<p><b>Foco:</b> integração com GitHub, aplicações web e gamificação.</p>
+<p><b>Origem:</b> evolução de um projeto open-source (QuestLog).</p>
+<a href="https://progress-hub-ten.vercel.app/">Aplicação publicada</a>
 </td>
 </tr>
 </table>
 
-**Próximo projeto — Command Center**  
-Plataforma pessoal de inteligência e gestão profissional, planejada com **Python, FastAPI, PostgreSQL e React**. Escopo previsto: dashboard, análise de planilhas, relatórios, projetos, agenda e futuras integrações com agentes de IA.
+### Command Center — Em planejamento
 
-<sub>Projeto em planejamento. As funcionalidades citadas são objetivos de desenvolvimento, não recursos já entregues.</sub>
+Plataforma de inteligência e gestão profissional pessoal, projetada com **Python, FastAPI, PostgreSQL e React**. Escopo previsto: dashboard, planilhas, relatórios, projetos, agenda e futuras integrações com agentes de IA.
 
-## <code>05.</code> Atividade no GitHub
+<sub>Funcionalidades planejadas, ainda não entregues.</sub>
+
+---
+
+## Atividade no GitHub
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=phzl0&show_icons=true&hide_border=true&theme=github_dark&title_color=65f6cb&icon_color=00cda8&text_color=c8d8df" alt="Atividade pública no GitHub" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phzl0&layout=compact&hide_border=true&theme=github_dark&title_color=65f6cb&text_color=c8d8df" alt="Linguagens nos repositórios públicos" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=phzl0&theme=dark&hide_border=true&ring=00FFD1&fire=00CFFF&currStreakLabel=00FFD1" alt="Atividade pública do GitHub" />
 </div>
 
-<sub>Indicadores gerados por serviço externo com base em repositórios públicos. O gráfico de linguagens não representa nível de proficiência.</sub>
+<sub>Indicadores gerados por serviços de terceiros a partir de informações públicas; disponibilidade sujeita ao serviço.</sub>
 
-## <code>06.</code> Formação e evolução
+---
+
+## Formação
 
 - **FATEC** — graduação tecnológica em andamento.
 - **Ensino Médio Técnico em Tecnologia da Informação**.
-- **Aprofundamento atual:** Python, arquitetura backend, bancos de dados, nuvem, agentes de IA e automação.
-
-## <code>07.</code> Contato
-
-Para acompanhar meus projetos e entrar em contato:
-
-**[github.com/phzl0](https://github.com/phzl0)**
+- **Estudos atuais:** Python, arquitetura backend, bancos de dados, computação em nuvem, agentes de IA e automação.
 
 ---
 
 <div align="center">
-<sub><code>BUILD • TEST • LEARN • ITERATE</code></sub>
-<br/>
-<sub>Software Engineering &nbsp; / &nbsp; Data &nbsp; / &nbsp; AI Systems</sub>
+
+<img src="https://img.shields.io/badge/BUILD-00FFD1?style=for-the-badge&labelColor=0B1020" alt="Build" />
+<img src="https://img.shields.io/badge/TEST-00CFFF?style=for-the-badge&labelColor=0B1020" alt="Test" />
+<img src="https://img.shields.io/badge/LEARN-A573FF?style=for-the-badge&labelColor=0B1020" alt="Learn" />
+<img src="https://img.shields.io/badge/ITERATE-00FFD1?style=for-the-badge&labelColor=0B1020" alt="Iterate" />
+
+<sub>Software Engineering / Data / AI Systems</sub>
+
 </div>

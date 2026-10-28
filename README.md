@@ -1,111 +1,113 @@
 <div align="center">
 
-<img alt="Paulo Florencio — Desenvolvimento de Software" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:123c2c&height=170&section=header&text=Paulo%20Florencio&fontSize=40&fontColor=ffffff&fontAlignY=42&desc=ENGENHEIRO%20DE%20IA%20%7C%20DESENVOLVIMENTO%20DE%20SOFTWARE%20%7C%20AUTOMAÇÃO%20%7C%20SISTEMAS&descSize=13&descAlignY=69&descColor=a3d6b4" width="100%" />
+<img alt="Paulo Florencio | Software Development & AI" src="https://capsule-render.vercel.app/api?type=waving&color=0:080b13,45:102b2b,100:00b89c&height=205&section=header&text=PAULO%20FLORENCIO&fontSize=39&fontColor=e8fff7&fontAlignY=37&desc=SOFTWARE%20DEVELOPMENT%20%7C%20AI%20%26%20AUTOMATION%20%7C%20SYSTEMS&descSize=14&descAlignY=60&descColor=80ffe1" width="100%" />
 
-**Tecnologia aplicada a soluções, processos e experiências digitais.**
+**Desenvolvimento de software • Integração de sistemas • Dados e automação**
 
-[Projetos](#projetos-selecionados) · [Competências](#competências-técnicas) · [Formação](#formação) · [Contato](#contato)
+`[ BUILDING SYSTEMS ]` &nbsp; `[ LEARNING BY DOING ]` &nbsp; `[ OPEN SOURCE ]`
+
+[Sobre](#sobre-mim) · [Tecnologias](#competências-técnicas) · [IA e automação](#inteligência-artificial-e-automação) · [Projetos](#projetos) · [Formação](#formação)
 
 </div>
 
-## Sobre mim
+---
 
-Sou estudante de tecnologia na **FATEC**, com formação técnica em TI e experiência em desenvolvimento de software, ferramentas tecnológicas e processos empresariais.
+## <code>01.</code> Sobre mim
 
-Tenho interesse na construção de **sistemas, aplicações web, soluções orientadas a dados e plataformas com mecanismos de engajamento**. Procuro conectar desenvolvimento técnico à compreensão de necessidades reais de usuários e organizações.
+Sou estudante de tecnologia na **FATEC**, com formação técnica em Tecnologia da Informação e experiência em operações digitais, e-commerce e processos administrativos.
 
-Atualmente, desenvolvo projetos próprios e contribuo para a evolução de aplicações, com foco em aprender por meio da implementação, da documentação e da resolução de problemas.
+Tenho interesse em **desenvolvimento backend, aplicações web, integração de APIs, bancos de dados e automação de processos**. Meu objetivo é unir conhecimento técnico à compreensão de problemas reais de negócios.
 
-## Competências técnicas
+Atualmente, desenvolvo projetos próprios para aprofundar conhecimentos em **arquitetura de software, infraestrutura, integração entre serviços e aplicações de inteligência artificial**. Priorizo aprendizado prático, documentação e evolução contínua.
 
-As ferramentas abaixo estão organizadas conforme minha experiência atual, sem avaliações percentuais de proficiência.
+## <code>02.</code> Competências técnicas
 
-### Experiência prática
+| Área | Tecnologias e conhecimentos |
+| :--- | :--- |
+| **Desenvolvimento** | Java, JavaScript, HTML, CSS, Spring Boot |
+| **Backend e integrações** | APIs REST, Node.js, integração entre sistemas |
+| **Dados** | SQL, PostgreSQL, MySQL, fundamentos de MongoDB |
+| **Infraestrutura e ferramentas** | Linux (Ubuntu), Git, GitHub, Docker |
+| **Operações e produtividade** | Excel, Microsoft Office, ERP, CRM, e-commerce |
 
-| Área | Tecnologias e ferramentas |
-| --- | --- |
-| **Linguagens e interfaces** | Java, JavaScript, HTML, CSS |
-| **Backend e integração** | Spring Boot, Node.js, APIs REST |
-| **Bancos de dados** | SQL (MySQL, PostgreSQL), NoSQL (MongoDB) |
-| **Ambiente e desenvolvimento** | Linux/Ubuntu, Git, GitHub, Docker |
-| **Ferramentas e operações** | Excel, Microsoft Office, ERP e CRM |
+**Conhecimentos básicos e em estudo**
 
-### Conhecimento básico
-
-`Python`
-
-### Em desenvolvimento
-
-`AWS` `Cloud Computing`
+`Python` `Cloud Computing` `AWS` `Arquitetura de sistemas` `APIs e integrações`
 
 <details>
-<summary><strong>Visualizar tecnologias</strong></summary>
-
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=java,js,html,css,spring,nodejs,mysql,postgres,mongodb,linux,git,github,docker,python,aws&perline=8" alt="Tecnologias utilizadas e estudadas" />
-</div>
-
+<summary><b>Visualizar tecnologias</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=java,js,html,css,spring,nodejs,postgres,mysql,mongodb,linux,git,github,docker,python,aws&perline=8" alt="Tecnologias estudadas e utilizadas" />
 </details>
 
-## Projetos selecionados
+## <code>03.</code> Inteligência artificial e automação
+
+Estudo os fundamentos de **modelos de linguagem, agentes de IA e integração de ferramentas** para compreender como aplicar inteligência artificial a processos e aplicações reais.
+
+| Conceito | Familiaridade e aplicação em estudo |
+| :--- | :--- |
+| **LLM — Large Language Model** | Fundamentos de modelos de linguagem, inferência e interação via prompts e APIs |
+| **Agentes de IA** | Uso de modelos associados a ferramentas, execução de tarefas e fluxos com supervisão |
+| **MCP — Model Context Protocol** | Conceitos de conexão padronizada entre aplicações de IA, ferramentas e fontes de dados |
+| **RAG — Retrieval-Augmented Generation** | Conceitos de recuperação de informações externas para fundamentar respostas de modelos |
+| **CLI — Command-Line Interface** | Utilização de ferramentas por linha de comando em Linux e fluxos de desenvolvimento |
+| **Automação com IA** | Exploração de integrações, orquestração de tarefas e rotinas assistidas por modelos |
+
+**Exploração prática:** testes e configuração de ferramentas como `Ollama`, `Goose` e `Ruflo`, com interesse em agentes locais, modelos hospedados e sistemas multiagentes.
+
+> **Nível atual:** conhecimentos introdutórios e experimentação prática. As tecnologias desta seção representam áreas de estudo, não certificações ou experiência profissional especializada.
+
+## <code>04.</code> Projetos
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/phzl0/Ecommerce">Ecommerce</a></h3>
-      <p>Projeto de desenvolvimento de uma aplicação de comércio eletrônico em Java, utilizado para explorar a estruturação de sistemas e a evolução de funcionalidades.</p>
-      <p><strong>Foco:</strong> Java, desenvolvimento de sistemas e organização de código.</p>
-      <p><em>Em desenvolvimento</em></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/phzl0/QuestLog">Progress Hub</a></h3>
-      <p>Plataforma em evolução voltada à comunidade de desenvolvedores, com contribuições do GitHub, classificação, objetivos e reconhecimento de atividades.</p>
-      <p><strong>Foco:</strong> aplicações web, integração com GitHub e mecanismos de engajamento.</p>
-      <p><em>Desenvolvido a partir de um projeto open-source (QuestLog)</em></p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/phzl0/Ecommerce">Ecommerce</a></h3>
+<p>Aplicação de comércio eletrônico desenvolvida com Java e Spring Boot, com persistência de dados e funcionalidades de operação comercial.</p>
+<p><b>Foco:</b> backend, banco de dados, segurança e implantação.</p>
+<p><b>Status:</b> demonstração funcional; funcionalidades em evolução.</p>
+<a href="https://ecommerce-kbri.onrender.com">Visualizar aplicação</a>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/phzl0/QuestLog">Progress Hub</a></h3>
+<p>Plataforma de acompanhamento e engajamento de desenvolvedores, com atividades do GitHub, objetivos, progresso e comunidade.</p>
+<p><b>Foco:</b> aplicações web, integrações e gamificação.</p>
+<p><b>Origem:</b> evolução de projeto open-source (QuestLog).</p>
+<a href="https://progress-hub-ten.vercel.app/">Visualizar aplicação</a>
+</td>
+</tr>
 </table>
 
-> As descrições destacam a proposta de cada trabalho. Funcionalidades e tecnologias específicas serão atualizadas conforme a documentação e a implementação dos projetos evoluírem.
+**Próximo projeto — Command Center**  
+Plataforma pessoal de inteligência e gestão profissional, planejada com **Python, FastAPI, PostgreSQL e React**. Escopo previsto: dashboard, análise de planilhas, relatórios, projetos, agenda e futuras integrações com agentes de IA.
 
-## Atividade no GitHub
+<sub>Projeto em planejamento. As funcionalidades citadas são objetivos de desenvolvimento, não recursos já entregues.</sub>
+
+## <code>05.</code> Atividade no GitHub
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=phzl0&show_icons=true&hide_border=true&theme=github_dark&title_color=60bc89&icon_color=60bc89" alt="Resumo de atividades do GitHub" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phzl0&layout=compact&hide_border=true&theme=github_dark&title_color=60bc89" alt="Linguagens dos repositórios públicos" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=phzl0&show_icons=true&hide_border=true&theme=github_dark&title_color=65f6cb&icon_color=00cda8&text_color=c8d8df" alt="Atividade pública no GitHub" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phzl0&layout=compact&hide_border=true&theme=github_dark&title_color=65f6cb&text_color=c8d8df" alt="Linguagens nos repositórios públicos" />
 </div>
 
-<sub>Indicadores gerados por um serviço externo a partir de dados públicos. A disponibilidade dos cartões pode variar; o gráfico de linguagens não mede proficiência.</sub>
+<sub>Indicadores gerados por serviço externo com base em repositórios públicos. O gráfico de linguagens não representa nível de proficiência.</sub>
 
-## Desenvolvimento contínuo
+## <code>06.</code> Formação e evolução
 
-Meu foco é ampliar a experiência prática com arquitetura de aplicações, persistência de dados, integrações, testes, implantação e manutenção de software.
-
-**Áreas de aprofundamento:**
-
-- Desenvolvimento e evolução de sistemas web e APIs.
-- Modelagem e integração de bancos de dados relacionais e NoSQL.
-- Infraestrutura, containers e serviços em nuvem.
-- Métricas, automação de processos e mecanismos de engajamento.
-
-<!-- Uma seção de indicadores próprios, baseada em atividades reais do GitHub,
-     poderá ser adicionada quando a automação e suas regras estiverem prontas. -->
-
-## Formação
-
-- **Graduação tecnológica em andamento — FATEC**.
+- **FATEC** — graduação tecnológica em andamento.
 - **Ensino Médio Técnico em Tecnologia da Informação**.
+- **Aprofundamento atual:** Python, arquitetura backend, bancos de dados, nuvem, agentes de IA e automação.
 
-## Contato
+## <code>07.</code> Contato
 
-Para conhecer meu trabalho ou iniciar uma conversa profissional, utilize meu perfil no GitHub:
+Para acompanhar meus projetos e entrar em contato:
 
 **[github.com/phzl0](https://github.com/phzl0)**
-
-<!-- Adicionar LinkedIn, e-mail profissional ou portfólio somente após validação. -->
 
 ---
 
 <div align="center">
-  <sub>Desenvolvimento de software · Tecnologia · Aprendizado contínuo</sub>
+<sub><code>BUILD • TEST • LEARN • ITERATE</code></sub>
+<br/>
+<sub>Software Engineering &nbsp; / &nbsp; Data &nbsp; / &nbsp; AI Systems</sub>
 </div>

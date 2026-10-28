@@ -1,32 +1,21 @@
 <div align="center">
 
-<h1>PAULO FLORENCIO</h1>
+<img src="./assets/matrix-banner.svg" width="100%" alt="Paulo Florencio — Engenheiro de IA, Desenvolvimento de Software, Automação e Sistemas — banner Matrix" />
 
-<h3>Engenheiro de IA | Desenvolvimento de Software | Automação | Sistemas</h3>
+<img src="https://skillicons.dev/icons?i=java,js,html,css,spring,nodejs,postgres,mysql,mongodb,linux,git,github,docker,python,aws&perline=15&theme=dark" alt="Tecnologias e ferramentas" />
 
-<img src="https://img.shields.io/badge/AI_%26_AUTOMATION-00FFD1?style=for-the-badge&labelColor=0B1020" alt="IA e Automação" />
-<img src="https://img.shields.io/badge/SOFTWARE_DEVELOPMENT-00CFFF?style=for-the-badge&labelColor=0B1020" alt="Desenvolvimento de software" />
-<img src="https://img.shields.io/badge/OPEN_SOURCE-A573FF?style=for-the-badge&labelColor=0B1020" alt="Open Source" />
+<a href="mailto:pauloalmeida1478965@gmail.com"><img src="https://img.shields.io/badge/Email-263b3b?style=flat-square&logo=gmail&logoColor=9cbbad&labelColor=172526" alt="E-mail" /></a> <a href="tel:+5511978988489"><img src="https://img.shields.io/badge/Telefone-263b3b?style=flat-square&logoColor=9cbbad&labelColor=172526" alt="Telefone" /></a> <a href="https://github.com/phzl0"><img src="https://img.shields.io/badge/GitHub-263b3b?style=flat-square&logo=github&logoColor=9cbbad&labelColor=172526" alt="GitHub" /></a>
 
-<br/><br/>
+**[E-mail](mailto:pauloalmeida1478965@gmail.com) · [WhatsApp / Telefone](tel:+5511978988489) · [GitHub](https://github.com/phzl0)**
 
-<img src="https://skillicons.dev/icons?i=java,js,html,css,spring,nodejs,postgres,mysql,mongodb,linux,git,github,docker,python,aws&perline=8&theme=dark" alt="Tecnologias e ferramentas" />
+<sub>Desenvolvimento de software · Integração de sistemas · Dados e automação</sub>
 
-<br/><br/>
-
-<a href="mailto:pauloalmeida1478965@gmail.com"><img src="https://img.shields.io/badge/EMAIL-PAULOALMEIDA1478965%40GMAIL.COM-00FFD1?style=flat-square&labelColor=101826" alt="Email profissional" /></a>
-<a href="tel:+5511978988489"><img src="https://img.shields.io/badge/TELEFONE-%2B55_11_97898--8489-00CFFF?style=flat-square&labelColor=101826" alt="Telefone" /></a>
-<a href="https://github.com/phzl0"><img src="https://img.shields.io/badge/GITHUB-PHZL0-A573FF?style=flat-square&logo=github&logoColor=white&labelColor=101826" alt="GitHub" /></a>
-
-<br/><br/>
-
-**Tecnologia aplicada a soluções, processos e experiências digitais.**
-
-[Sobre mim](#sobre-mim) • [Competências](#competências-técnicas) • [IA e automação](#inteligência-artificial-e-automação) • [Projetos](#projetos) • [Formação](#formação)
-
-<img src="https://img.shields.io/badge/━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━-00FFD1?style=flat-square&labelColor=00FFD1" alt="Divisor neon" width="90%"/>
+[Sobre](#sobre-mim) · [Competências](#competências-técnicas) · [IA](#inteligência-artificial-e-automação) · [Projetos](#projetos) · [Formação](#formação)
 
 </div>
+
+
+---
 
 ## Sobre mim
 
@@ -35,6 +24,7 @@ Sou estudante de tecnologia na **FATEC**, com formação técnica em Tecnologia 
 Tenho interesse em **desenvolvimento backend, aplicações web, integração de APIs, bancos de dados e automação de processos**, buscando conectar soluções técnicas a necessidades reais de negócios.
 
 Desenvolvo projetos próprios para aprofundar conhecimentos em **arquitetura de software, infraestrutura, integração de serviços e aplicações de inteligência artificial**, com foco em experimentação, documentação e melhoria contínua.
+
 
 ---
 
@@ -51,6 +41,7 @@ Desenvolvo projetos próprios para aprofundar conhecimentos em **arquitetura de 
 **Conhecimentos básicos e em desenvolvimento**
 
 `Python` `Cloud Computing` `AWS` `Arquitetura de sistemas` `APIs e integrações`
+
 
 ---
 
@@ -70,6 +61,7 @@ Estudo os fundamentos e as aplicações de **modelos de linguagem, agentes de IA
 **Experimentação prática:** `Ollama` · `Goose` · `Ruflo`
 
 <sub>Conhecimentos introdutórios e experimentação prática; esta seção não indica certificação ou especialização profissional nessas tecnologias.</sub>
+
 
 ---
 
@@ -100,6 +92,7 @@ Plataforma de inteligência e gestão profissional pessoal, projetada com **Pyth
 
 <sub>Funcionalidades planejadas, ainda não entregues.</sub>
 
+
 ---
 
 ## Atividade no GitHub
@@ -110,6 +103,7 @@ Plataforma de inteligência e gestão profissional pessoal, projetada com **Pyth
 
 <sub>Indicadores gerados por serviços de terceiros a partir de informações públicas; disponibilidade sujeita ao serviço.</sub>
 
+
 ---
 
 ## Formação
@@ -118,15 +112,9 @@ Plataforma de inteligência e gestão profissional pessoal, projetada com **Pyth
 - **Ensino Médio Técnico em Tecnologia da Informação**.
 - **Estudos atuais:** Python, arquitetura backend, bancos de dados, computação em nuvem, agentes de IA e automação.
 
+
 ---
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/BUILD-00FFD1?style=for-the-badge&labelColor=0B1020" alt="Build" />
-<img src="https://img.shields.io/badge/TEST-00CFFF?style=for-the-badge&labelColor=0B1020" alt="Test" />
-<img src="https://img.shields.io/badge/LEARN-A573FF?style=for-the-badge&labelColor=0B1020" alt="Learn" />
-<img src="https://img.shields.io/badge/ITERATE-00FFD1?style=for-the-badge&labelColor=0B1020" alt="Iterate" />
-
-<sub>Software Engineering / Data / AI Systems</sub>
-
+<sub><code>BUILD / TEST / LEARN / ITERATE</code> · Software Engineering / Data / AI Systems</sub>
 </div>

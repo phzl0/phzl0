@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/matrix-motion.svg" width="100%" alt="Paulo Florencio — Engenheiro de IA, Desenvolvimento de Software, Automação e Sistemas — banner Matrix animado" />
+<img src="./assets/waves-banner.svg" width="100%" alt="Paulo Florencio — Engenheiro de IA, Desenvolvimento de Software, Automação e Sistemas — banner minimalista com ondas animadas" />
 
 <img src="https://skillicons.dev/icons?i=java,js,html,css,spring,nodejs,postgres,mysql,mongodb,linux,git,github,docker,python,aws&perline=15&theme=dark" alt="Tecnologias e ferramentas" />
 

@@ -76,10 +76,11 @@ Estudo os fundamentos e as aplicações de **modelos de linguagem, agentes de IA
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/phzl0/QuestLog">Progress Hub</a></h3>
-<p>Plataforma de acompanhamento e engajamento de desenvolvedores, com atividades do GitHub, progresso, objetivos e comunidade.</p>
-<p><b>Foco:</b> integração com GitHub, aplicações web e gamificação.</p>
+<p>Comunidade competitiva de desenvolvedores conectada ao GitHub, com contribuições, XP, níveis, temporadas, missões e conquistas.</p>
+<p><b>Foco:</b> integração com GitHub, comunidade e gamificação.</p>
+<p><b>Status:</b> beta; funcionalidades e regras em evolução.</p>
 <p><b>Origem:</b> evolução de um projeto open-source (QuestLog).</p>
-<a href="https://progress-hub-ten.vercel.app/">Aplicação publicada</a>
+<a href="https://progress-hub-ten.vercel.app/">Acessar a beta</a> · <a href="https://github.com/phzl0/QuestLog#readme">Instalação e documentação</a>
 </td>
 </tr>
 </table>

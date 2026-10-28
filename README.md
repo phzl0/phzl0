@@ -1,12 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:123c2c&height=170&section=header&text=Paulo%20Florencio&fontSize=40&fontColor=ffffff&fontAlignY=42&desc=ENGENHEIRO%20DE%20IA%20%7C%20DESENVOLVIMENTO%20DE%20SOFTWARE%20%7C%20AUTOMA%C3%87%C3%83O%20%7C%20SISTEMAS&descSize=13&descAlignY=69&descColor=a3d6b4&animation=fadeIn" width="100%" alt="Paulo Florencio — Engenheiro de IA, Desenvolvimento de Software, Automação e Sistemas" />
+<img src="./assets/matrix-motion.svg" width="100%" alt="Paulo Florencio — Engenheiro de IA, Desenvolvimento de Software, Automação e Sistemas — banner Matrix animado" />
 
 <img src="https://skillicons.dev/icons?i=java,js,html,css,spring,nodejs,postgres,mysql,mongodb,linux,git,github,docker,python,aws&perline=15&theme=dark" alt="Tecnologias e ferramentas" />
 
 <a href="mailto:pauloalmeida1478965@gmail.com"><img src="https://img.shields.io/badge/E--mail-253b36?style=flat-square&logo=gmail&logoColor=9dbba7&labelColor=14211e" alt="E-mail" /></a>
 <a href="https://wa.me/5511978988489"><img src="https://img.shields.io/badge/WhatsApp-253b36?style=flat-square&logo=whatsapp&logoColor=9dbba7&labelColor=14211e" alt="WhatsApp" /></a>
-<a href="tel:+5511978988489"><img src="https://img.shields.io/badge/Telefone-253b36?style=flat-square&labelColor=14211e" alt="Telefone" /></a>
 <a href="https://github.com/phzl0"><img src="https://img.shields.io/badge/GitHub-253b36?style=flat-square&logo=github&logoColor=9dbba7&labelColor=14211e" alt="GitHub" /></a>
 
 <sub>Desenvolvimento de software · Integração de sistemas · Dados e automação</sub>
@@ -40,7 +39,7 @@ Desenvolvo projetos próprios para aprofundar conhecimentos em **arquitetura de 
 
 **Conhecimentos básicos e em desenvolvimento**
 
-`Python` `Cloud Computing` `AWS` `Arquitetura de sistemas` `APIs e integrações`
+`Python` `Cloud Computing` `AWS` `Arquitetura de sistemas` `APIs e integrações` `n8n (estudo)`
 
 ---
 
@@ -55,10 +54,10 @@ Estudo os fundamentos e as aplicações de **modelos de linguagem, agentes de IA
 | **MCP — Model Context Protocol** | Protocolo para conectar aplicações de IA a ferramentas e fontes de dados |
 | **RAG — Retrieval-Augmented Generation** | Recuperação de informações externas para fundamentar respostas |
 | **CLI — Command-Line Interface** | Ferramentas de linha de comando, terminal Linux e fluxos de desenvolvimento |
-| **Automação de processos com IA** | Orquestração, integrações e execução de rotinas assistidas por modelos |
+| **Automação de processos com IA** | Conceitos de fluxos, gatilhos, integrações e orquestração de rotinas com n8n e agentes |
 | **Engenharia reversa** | Estudo de como aplicações e sistemas funcionam a partir de sua implementação e comportamento |
 
-**Experimentação prática:** `Ollama` · `Goose` · `Ruflo` · [**REA — Reverse Engineering Assistant**](https://github.com/morluto/rea) (estudo de ferramentas e conceitos de engenharia reversa)
+**Ferramentas em estudo e experimentação:** `Ollama` · `Goose` · `Ruflo` · `n8n` · [**REA — Reverse Engineering Assistant**](https://github.com/morluto/rea) (estudo de ferramentas e conceitos de engenharia reversa)
 
 <sub>Conhecimentos introdutórios e experimentação prática; esta seção não indica certificação ou especialização profissional nessas tecnologias.</sub>
 

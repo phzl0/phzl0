@@ -31,6 +31,7 @@ Desenvolvo projetos próprios para aprofundar conhecimentos em **arquitetura de 
 | Área | Tecnologias e conhecimentos |
 | :--- | :--- |
 | **Desenvolvimento** | Java, JavaScript, HTML, CSS, Spring Boot |
+| **Frontend** | React, Next.js |
 | **Backend e integrações** | APIs REST, Node.js, integração de sistemas |
 | **Dados** | SQL, PostgreSQL, MySQL, fundamentos de MongoDB |
 | **Ambiente e infraestrutura** | Linux / Ubuntu, Git, GitHub, Docker |
@@ -85,11 +86,13 @@ Estudo os fundamentos e as aplicações de **modelos de linguagem, agentes de IA
 </tr>
 </table>
 
-### Command Center — Em planejamento
+### [Command Center](https://github.com/phzl0/CommanderCenter) — Beta
 
-Plataforma de inteligência e gestão profissional pessoal, projetada com **Python, FastAPI, PostgreSQL e React**. Escopo previsto: dashboard, planilhas, relatórios, projetos, agenda e futuras integrações com agentes de IA.
+Centro pessoal de informações para acompanhar o mercado e organizar a rotina, com dashboards, notícias, indicadores econômicos, agenda e análise de planilhas e documentos. Desenvolvido com **Python, FastAPI, PostgreSQL, React e TypeScript**.
 
-<sub>Funcionalidades planejadas, ainda não entregues.</sub>
+**Status:** beta com execução local via Docker; funcionalidades e integrações em evolução.
+
+[Repositório e passo a passo de instalação](https://github.com/phzl0/CommanderCenter#readme)
 
 ---
 

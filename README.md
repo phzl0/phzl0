@@ -68,11 +68,12 @@ Estudo os fundamentos e as aplicações de **modelos de linguagem, agentes de IA
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/phzl0/Ecommerce">Ecommerce</a></h3>
-<p>Aplicação de comércio eletrônico em Java e Spring Boot, com persistência de dados e funcionalidades de operação comercial.</p>
-<p><b>Foco:</b> backend, bancos de dados, segurança e implantação.</p>
-<p><b>Status:</b> demonstração funcional; funcionalidades em evolução.</p>
-<a href="https://ecommerce-kbri.onrender.com">Aplicação publicada</a>
+<h3><a href="https://github.com/phzl0/Ecommerce">LEVEL COMMERCE — Ecommerce Beta</a></h3>
+<p>E-commerce gamificado com catálogo, sacola, pedidos, passe por temporada, missões, XP e recompensas digitais. Desenvolvido com Java, Spring Boot, PostgreSQL e React.</p>
+<p><b>Foco:</b> operação de loja, segurança, integração de pagamentos e gamificação.</p>
+<p><b>Status:</b> beta para testes locais via Docker; pagamentos desativados por padrão.</p>
+<a href="https://github.com/phzl0/Ecommerce#readme">Testar a beta — passo a passo Linux e Windows</a>
+<p><sub>A beta está na branch feat/checkout-gamification. A versão publicada anteriormente pode ter funcionalidades diferentes.</sub></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/phzl0/QuestLog">Progress Hub</a></h3>

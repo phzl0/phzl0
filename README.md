@@ -99,22 +99,10 @@ Centro pessoal de informações para acompanhar o mercado e organizar a rotina, 
 ## Atividade no GitHub
 
 <a href="https://github.com/phzl0?tab=overview">
-<img src="./assets/activity-quest.svg" width="100%" alt="Dev Quest: calendário de contribuições, dias ativos, sequências, XP, nível e missão semanal de phzl0" />
+<img src="./assets/activity-quest.svg" width="100%" alt="Calendário de contribuições, dias ativos e sequências de phzl0 no GitHub" />
 </a>
 
-<sub>Atualização diária automática · 10 XP por contribuição (máximo de 10 por dia) + 20 XP por dia ativo · 1.000 XP por nível · missão: contribuir em 5 dias da semana.</sub>
-
-<details>
-<summary>Como funciona a jornada</summary>
-
-- O calendário usa contribuições visíveis na API oficial do GitHub; dias ativos não equivalem a horas ou dias de trabalho.
-- XP, níveis e títulos são uma gamificação pessoal, sem certificação ou avaliação de qualidade do código.
-- O progresso considera uma janela móvel dos últimos 12 meses e pode diminuir quando atividades antigas saem dessa janela.
-- A sequência atual considera hoje ou ontem, se ainda não houve contribuição hoje. Datas e missão semanal (segunda a domingo) usam UTC.
-- O painel é salvo neste repositório por um [workflow diário](https://github.com/phzl0/phzl0/actions/workflows/activity.yml). Em caso de falha na consulta, a última imagem válida permanece.
-- Essa jornada é independente do Progress Hub e do arquivo local de progressão de estudos.
-
-</details>
+<sub>Atualização diária automática · últimos 12 meses · contribuições visíveis no GitHub, sem representar horas trabalhadas.</sub>
 
 ---
 

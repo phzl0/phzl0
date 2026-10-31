@@ -106,21 +106,17 @@ Assistente de inteligência artificial com **chat web, conversas salvas, perfil 
 
 ---
 
-## Linguagens utilizadas
+## Dashboard de contribuições
 
 <div align="center">
 
-<a href="https://github.com/phzl0?tab=repositories">
-<img src="./assets/languages-panel.svg" alt="Linguagens utilizadas nos repositórios públicos do GitHub" />
+<a href="https://github.com/phzl0?tab=overview">
+<img src="./assets/contributions-dashboard.svg" width="100%" alt="Dashboard com contribuições, dias ativos, sequências e gráfico das últimas 12 semanas" />
 </a>
 
 </div>
 
-<sub>Painel estático e leve, hospedado neste repositório. Apresenta tecnologias utilizadas ou estudadas, sem atribuir percentuais de domínio ou proporções de código.</sub>
-
-**Áreas em foco:** `Backend Java / Spring Boot` · `Python e automação` · `APIs e integrações` · `Aplicações web`
-
-**Projetos para explorar:** [LEVEL COMMERCE](https://github.com/phzl0/Ecommerce) · [Progress Hub](https://github.com/phzl0/QuestLog) · [Command Center](https://github.com/phzl0/CommanderCenter) · [Agente IA](https://github.com/phzl0/Agente_IA)
+<sub>Dados públicos de contribuições do GitHub · Atualização automática diária via GitHub Actions · Não representa horas trabalhadas nem nível de proficiência.</sub>
 
 ---
 

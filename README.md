@@ -94,6 +94,16 @@ Centro pessoal de informações para acompanhar o mercado e organizar a rotina, 
 
 [Repositório e passo a passo de instalação](https://github.com/phzl0/CommanderCenter#readme)
 
+### [Agente IA](https://github.com/phzl0/Agente_IA) — Beta
+
+Assistente de inteligência artificial com **chat web, conversas salvas, perfil local e consulta a documentos**, disponível também pelo terminal. Desenvolvido com **Python, FastAPI, React, TypeScript, SQLite e API Gemini**.
+
+**Foco:** integração de ferramentas com **MCP**, recuperação de informações com **RAG lexical (BM25)** e compreensão prática do fluxo de um agente de IA.
+
+**Status:** beta para execução local; exige chave própria da API Gemini. Sem busca na internet nesta versão.
+
+[Repositório e passo a passo para testar — Linux e Windows](https://github.com/phzl0/Agente_IA#readme)
+
 ---
 
 ## Atividade no GitHub

@@ -59,7 +59,7 @@ def render(calendar, today):
         '<text x="728" y="263" font-size="11" text-anchor="end" fill="#819a90">GitHub Actions</text>',
         '</g></svg>',
     ]
-    return '\\n'.join(parts) + '\\n'
+    return '\n'.join(parts) + '\n'
 
 
 def main():

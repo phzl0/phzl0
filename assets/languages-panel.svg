@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 180" width="840" height="180" role="img" aria-label="Linguagens presentes nos projetos: Java, Python, TypeScript, JavaScript e HTML CSS">
+<rect width="840" height="180" rx="12" fill="#0d151c"/>
+<rect x=".8" y=".8" width="838.4" height="178.4" rx="11" fill="none" stroke="#34564c" stroke-width="1.6"/>
+<text x="28" y="37" font-size="18" font-family="Arial,sans-serif" font-weight="700" fill="#d6e7e0">Linguagens e ecossistema</text>
+<text x="28" y="59" font-size="12" font-family="Arial,sans-serif" fill="#8da99e">Tecnologias presentes nos projetos e estudos</text>
+<g font-family="Arial,sans-serif" font-size="14" font-weight="600">
+<rect x="28" y="83" width="130" height="35" rx="7" fill="#182a29" stroke="#4b7465"/><circle cx="47" cy="100" r="4" fill="#9fc9b7"/><text x="60" y="105" fill="#deede6">Java</text>
+<rect x="170" y="83" width="130" height="35" rx="7" fill="#182a29" stroke="#4b7465"/><circle cx="189" cy="100" r="4" fill="#9fc9b7"/><text x="202" y="105" fill="#deede6">Python</text>
+<rect x="312" y="83" width="150" height="35" rx="7" fill="#182a29" stroke="#4b7465"/><circle cx="331" cy="100" r="4" fill="#9fc9b7"/><text x="344" y="105" fill="#deede6">TypeScript</text>
+<rect x="474" y="83" width="150" height="35" rx="7" fill="#182a29" stroke="#4b7465"/><circle cx="493" cy="100" r="4" fill="#9fc9b7"/><text x="506" y="105" fill="#deede6">JavaScript</text>
+<rect x="636" y="83" width="176" height="35" rx="7" fill="#182a29" stroke="#4b7465"/><circle cx="655" cy="100" r="4" fill="#9fc9b7"/><text x="668" y="105" fill="#deede6">HTML / CSS</text>
+</g>
+<line x1="28" y1="139" x2="812" y2="139" stroke="#35584d" opacity=".7"/>
+<text x="28" y="160" font-size="12" font-family="Arial,sans-serif" fill="#8da99e">Sem percentuais artificiais: o gráfico representa tecnologias, não proficiência.</text>
+</svg>

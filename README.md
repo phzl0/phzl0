@@ -106,13 +106,21 @@ Assistente de inteligência artificial com **chat web, conversas salvas, perfil 
 
 ---
 
-## Atividade no GitHub
+## Linguagens utilizadas
 
-<a href="https://github.com/phzl0?tab=overview">
-<img src="./assets/activity-quest.svg" width="100%" alt="Calendário de contribuições, dias ativos e sequências de phzl0 no GitHub" />
+<div align="center">
+
+<a href="https://github.com/phzl0?tab=repositories">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=phzl0&layout=compact&langs_count=8&hide_border=true&bg_color=0d151c&title_color=8abda8&text_color=c8d7d2&icon_color=82b6a2&border_radius=8" alt="Linguagens utilizadas nos repositórios públicos do GitHub" />
 </a>
 
-<sub>Atualização diária automática · últimos 12 meses · contribuições visíveis no GitHub, sem representar horas trabalhadas.</sub>
+</div>
+
+<sub>Painel baseado nos arquivos dos repositórios públicos; a distribuição é aproximada e não representa nível de conhecimento ou tempo de experiência. A imagem depende de um serviço externo.</sub>
+
+**Áreas em foco:** `Backend Java / Spring Boot` · `Python e automação` · `APIs e integrações` · `Aplicações web`
+
+**Projetos para explorar:** [LEVEL COMMERCE](https://github.com/phzl0/Ecommerce) · [Progress Hub](https://github.com/phzl0/QuestLog) · [Command Center](https://github.com/phzl0/CommanderCenter) · [Agente IA](https://github.com/phzl0/Agente_IA)
 
 ---
 

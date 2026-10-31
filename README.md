@@ -111,12 +111,12 @@ Assistente de inteligência artificial com **chat web, conversas salvas, perfil 
 <div align="center">
 
 <a href="https://github.com/phzl0?tab=repositories">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=phzl0&layout=compact&langs_count=8&hide_border=true&bg_color=0d151c&title_color=8abda8&text_color=c8d7d2&icon_color=82b6a2&border_radius=8" alt="Linguagens utilizadas nos repositórios públicos do GitHub" />
+<img src="./assets/languages-panel.svg" alt="Linguagens utilizadas nos repositórios públicos do GitHub" />
 </a>
 
 </div>
 
-<sub>Painel baseado nos arquivos dos repositórios públicos; a distribuição é aproximada e não representa nível de conhecimento ou tempo de experiência. A imagem depende de um serviço externo.</sub>
+<sub>Painel estático e leve, hospedado neste repositório. Apresenta tecnologias utilizadas ou estudadas, sem atribuir percentuais de domínio ou proporções de código.</sub>
 
 **Áreas em foco:** `Backend Java / Spring Boot` · `Python e automação` · `APIs e integrações` · `Aplicações web`
 

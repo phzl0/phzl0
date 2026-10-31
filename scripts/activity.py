@@ -23,52 +23,43 @@ def metrics(days, today):
 
 
 def render(calendar, today):
-    days = [d for w in calendar['weeks'] for d in w['contributionDays'] if dt.date.fromisoformat(d['date']) <= today]
+    days = [d for w in calendar['weeks'] for d in w['contributionDays']
+            if dt.date.fromisoformat(d['date']) <= today]
     active, best, streak = metrics(days, today)
-    parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">',
-             '<title id="title">Atividade no GitHub de phzl0</title>',
-             '<desc id="desc">Calendário de contribuições visíveis, dias ativos e sequências. Não mede horas trabalhadas.</desc>',
-             '<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101f25"/><stop offset="1" stop-color="#0b1118"/></linearGradient></defs>',
-             '<rect width="959" height="399" x=".5" y=".5" rx="22" fill="url(#bg)" stroke="#293f46"/>',
-             '<g font-family="system-ui,Segoe UI,sans-serif">']
-
-    def text(x, y, value, size=14, color='#9db2bd', weight='400'):
-        parts.append(f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" font-weight="{weight}">{html.escape(str(value))}</text>')
-
-    text(30, 34, 'ACTIVITY LOG  /  PHZL0', 11, '#82c7b4', '700')
-    text(30, 72, 'Atividade no GitHub', 27, '#ecf4f5', '700')
-    parts.append('<path d="M778 29h-16v50h16 M904 29h16v50h-16" fill="none" stroke="#385c62" stroke-width="2"/><path d="M796 55h16l9-16 15 30 11-20 7 6h31" fill="none" stroke="#82c7b4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="894" cy="55" r="4" fill="#82c7b4"/>')
-    values = [(str(active), 'DIAS ATIVOS'), (str(streak), 'SEQUÊNCIA ATUAL'), (str(best), 'MELHOR SEQUÊNCIA'), (str(sum(d['contributionCount'] for d in days)), 'CONTRIBUIÇÕES')]
-    for i, (value, label) in enumerate(values):
-        x = 30 + i * 231
-        parts.append(f'<rect x="{x}" y="105" width="213" height="70" rx="12" fill="#13222c" stroke="#263b46"/>')
-        text(x + 15, 134, value, 25, '#e5eff3', '650')
-        text(x + 15, 158, label, 10)
-    text(30, 205, 'ÚLTIMOS 12 MESES', 11, '#bed0d8', '700')
-    colors = ['#1a2b35', '#25494c', '#35776b', '#56a48c', '#96d6b4']
-    months = ['', 'Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez']
-    last_month = None
-    for wi, w in enumerate(calendar['weeks']):
-        for d in w['contributionDays']:
-            date = dt.date.fromisoformat(d['date'])
-            if date > today:
-                continue
-            x, y = 65 + wi * 16, 239 + ((date.weekday() + 1) % 7) * 16
-            n = d['contributionCount']
-            index = 0 if not n else 1 if n < 3 else 2 if n < 6 else 3 if n < 10 else 4
-            if date.month != last_month and (date.day <= 7 or last_month is None):
-                text(x, 227, months[date.month], 10)
-                last_month = date.month
-            parts.append(f'<rect x="{x}" y="{y}" width="12" height="12" rx="3" fill="{colors[index]}"><title>{date}: {n} contribuições</title></rect>')
-    for y, label in [(266, 'Seg'), (298, 'Qua'), (330, 'Sex')]:
-        text(30, y, label, 9)
-    text(600, 370, 'Menos', 10)
-    for i, color in enumerate(colors):
-        parts.append(f'<rect x="{641+i*17}" y="360" width="12" height="12" rx="3" fill="{color}"/>')
-    text(735, 370, 'Mais', 10)
-    text(30, 370, f'Atualizado em {today:%d/%m/%Y} · UTC · dados visíveis no GitHub', 10, '#728b99')
-    parts.append('</g></svg>')
-    return '\n'.join(parts) + '\n'
+    recent = days[-84:]
+    weekly = [sum(d['contributionCount'] for d in recent[i:i + 7])
+              for i in range(0, 84, 7)]
+    weekly = ([0] * max(0, 12 - len(weekly)) + weekly)[-12:]
+    peak = max(1, *weekly)
+    total = sum(d['contributionCount'] for d in days)
+    parts = [
+        '<svg xmlns="http://www.w3.org/2000/svg" width="760" height="290" viewBox="0 0 760 290" role="img" aria-labelledby="t d">',
+        '<title id="t">Dashboard de contribuições de phzl0</title>',
+        '<desc id="d">Contribuições públicas visíveis no GitHub; atualização diária.</desc>',
+        '<rect x="1" y="1" width="758" height="288" rx="14" fill="#0d1518" stroke="#365349"/>',
+        '<g font-family="Arial,Helvetica,sans-serif">',
+        '<text x="29" y="31" font-size="12" fill="#87b69f" letter-spacing="2">GITHUB / CONTRIBUTIONS</text>',
+        '<text x="29" y="57" font-size="21" font-weight="bold" fill="#e2ece7">Dashboard de contribuições</text>',
+    ]
+    stats = [('CONTRIBUIÇÕES', total), ('DIAS ATIVOS', active),
+             ('SEQUÊNCIA ATUAL', streak), ('MELHOR SEQUÊNCIA', best)]
+    for i, (label, value) in enumerate(stats):
+        x = 29 + i * 181
+        parts.append(f'<rect x="{x}" y="73" width="170" height="66" rx="8" fill="#162421" stroke="#29473b"/>')
+        parts.append(f'<text x="{x + 14}" y="102" font-size="23" font-weight="bold" fill="#e4f0e9">{value}</text>')
+        parts.append(f'<text x="{x + 14}" y="123" font-size="10" fill="#91b29f">{label}</text>')
+    parts.append('<text x="29" y="166" font-size="12" fill="#b5d1c2">Contribuições por semana · últimas 12 semanas</text>')
+    for i, number in enumerate(weekly):
+        height = max(5 if number else 2, round(number / peak * 70))
+        color = '#579c7a' if number else '#263b37'
+        parts.append(f'<rect x="{44 + i * 47}" y="{228 - height}" width="24" height="{height}" rx="4" fill="{color}"><title>Semana {i + 1}: {number} contribuições</title></rect>')
+    parts += [
+        '<path d="M29 230H731" stroke="#385249"/>',
+        f'<text x="29" y="263" font-size="11" fill="#819a90">Atualizado em {today:%d/%m/%Y} · dados públicos visíveis</text>',
+        '<text x="728" y="263" font-size="11" text-anchor="end" fill="#819a90">GitHub Actions</text>',
+        '</g></svg>',
+    ]
+    return '\\n'.join(parts) + '\\n'
 
 
 def main():
@@ -81,7 +72,7 @@ def main():
     calendar = data['data']['user']['contributionsCollection']['contributionCalendar']
     if not calendar['weeks']:
         raise RuntimeError('Calendário vazio; painel anterior preservado.')
-    Path('assets/activity-quest.svg').write_text(render(calendar, dt.datetime.now(dt.timezone.utc).date()), encoding='utf-8')
+    Path('assets/contributions-dashboard.svg').write_text(render(calendar, dt.datetime.now(dt.timezone.utc).date()), encoding='utf-8')
 
 
 if __name__ == '__main__':

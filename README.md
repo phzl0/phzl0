@@ -30,7 +30,7 @@ Desenvolvo projetos próprios para aprofundar conhecimentos em **arquitetura de 
 
 | Área | Tecnologias e conhecimentos |
 | :--- | :--- |
-| **Frontend** | JavaScript, React, Next.js |
+| **Frontend** | JavaScript, React |
 | **Backend e integrações** | Java, Spring Boot, Node.js, APIs REST, integração de sistemas |
 | **Dados** | SQL, PostgreSQL, MySQL, fundamentos de MongoDB |
 | **Ambiente e infraestrutura** | Linux / Ubuntu, Git, GitHub, Docker |

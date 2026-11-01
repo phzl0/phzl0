@@ -53,6 +53,7 @@ Estudo os fundamentos e as aplicações de **modelos de linguagem, agentes de IA
 | **Agentes de IA** | Ferramentas, execução supervisionada e fluxos com modelos |
 | **MCP — Model Context Protocol** | Protocolo para conectar aplicações de IA a ferramentas e fontes de dados |
 | **RAG — Retrieval-Augmented Generation** | Recuperação de informações externas para fundamentar respostas |
+| **RPA — Robotic Process Automation** | Fundamentos de automação de tarefas por interface, integração com sistemas sem API e combinação com agentes de IA |
 | **CLI — Command-Line Interface** | Ferramentas de linha de comando, terminal Linux e fluxos de desenvolvimento |
 | **Automação de processos com IA** | Conceitos de fluxos, gatilhos, integrações e orquestração de rotinas com n8n e agentes |
 | **Engenharia reversa** | Estudo de como aplicações e sistemas funcionam a partir de sua implementação e comportamento |

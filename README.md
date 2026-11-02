@@ -66,6 +66,9 @@ Estudo os fundamentos e as aplicações de **modelos de linguagem, agentes de IA
 
 ## Projetos
 
+<sub>**Nota sobre os projetos:** são protótipos e laboratórios de desenvolvimento, com foco na **funcionalidade, lógica de negócio, arquitetura, integrações e automações**. A navegação, a disposição de botões e abas, os textos e o acabamento visual podem não seguir padrões finais de UX/UI. A prioridade é demonstrar o funcionamento técnico; interfaces e experiência de uso continuam em evolução.</sub>
+
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -104,6 +107,16 @@ Assistente de inteligência artificial com **chat web, conversas salvas, perfil 
 **Status:** beta para execução local; exige chave própria da API Gemini. Sem busca na internet nesta versão.
 
 [Repositório e passo a passo para testar — Linux e Windows](https://github.com/phzl0/Agente_IA#readme)
+
+### [RPA Automation Lab](https://github.com/phzl0/RPA-Automation-Lab) — Beta
+
+Laboratório de automação de processos integrado a um **ERP demonstrativo**, com dashboard administrativo, pedidos, produtos, estoque, auditoria e chat com IA pelo navegador ou CLI. Desenvolvido com **Python, Flask, SQLite, Playwright, Gemini e Docker**.
+
+**Foco:** integração entre **LLM e RPA**. O **modelo de linguagem interpreta a solicitação**, as ferramentas consultam e validam os registros reais, e o **RPA (Playwright) é responsável por executar cadastros, edições e exclusões na interface do ERP**, após confirmação do administrador. A IA não altera os dados diretamente.
+
+**Status:** beta para testes locais via Docker; histórico de conversas persistente, consultas e confirmações de operações. Ambiente experimental sem autenticação de usuários; utilizar somente dados fictícios.
+
+[Repositório e passo a passo para testar — Linux e Windows](https://github.com/phzl0/RPA-Automation-Lab#readme)
 
 ---
 

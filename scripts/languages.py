@@ -152,7 +152,7 @@ def render(totals, included, technologies, inspected, skipped):
     parts += [
         '<path d="M28 291 H752" stroke="#2d473d"/>',
         '<text x="28" y="315" font-size="13" fill="#dce9e2" font-weight="bold">Frameworks e ferramentas identificados</text>',
-        f'<text x="28" y="333" font-size="10" fill="#92a99e">Tecnologias identificadas em {inspected} repositórios; {skipped} árvores grandes não analisadas</text>',
+        f'<text x="28" y="333" font-size="10" fill="#92a99e">% dos {inspected} repositórios analisados que utilizam a tecnologia; {skipped} não analisados</text>',
     ]
     if technologies:
         for i, (name, count) in enumerate(technologies[:8]):
@@ -162,7 +162,7 @@ def render(totals, included, technologies, inspected, skipped):
             label = html.escape(name)
             parts.append(f'<rect x="{x}" y="{y}" width="173" height="29" rx="6" fill="#182a25" stroke="#345748"/>')
             parts.append(f'<text x="{x + 10}" y="{y + 19}" font-size="12" fill="#d6e7df">{label}</text>')
-            parts.append(f'<text x="{x + 162}" y="{y + 19}" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">{count} proj.</text>')
+            parts.append(f'<text x="{x + 164}" y="{y + 19}" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">{count / inspected * 100:.1f}%</text><title>{count} de {inspected} repositórios</title>')
     else:
         parts.append('<text x="28" y="365" font-size="12" fill="#9fb5a9">Nenhuma dependência reconhecida nos arquivos verificados</text>')
     today = dt.datetime.now(dt.timezone.utc).strftime("%d/%m/%Y")

@@ -63,7 +63,7 @@ def source_file(repo, path):
 
 def detect(projects):
     """Contar repositórios por tecnologia, não percentuais de linhas de código."""
-    names = ["React", "Node.js", "Spring Boot", "FastAPI", "Docker", "Next.js", "n8n"]
+    names = ["React", "Node.js", "Spring Boot", "FastAPI", "Docker", "n8n"]
     counts = collections.Counter()
     inspected = 0
     for repo in projects:
@@ -86,8 +86,6 @@ def detect(projects):
         found = set()
         if re.search(r'"react"\s*:', packages):
             found.add("React")
-        if re.search(r'"next"\s*:', packages):
-            found.add("Next.js")
         if re.search(r'"@types/node"\s*:|"node"\s*:', packages) or (
             packages and re.search(r'"(express|fastify|koa|nestjs|@nestjs/core)"\s*:', packages)
         ):

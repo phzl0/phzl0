@@ -117,7 +117,7 @@ Assistente de inteligência artificial com **chat web, conversas salvas, perfil 
 
 </div>
 
-<sub>Percentuais calculados a partir dos bytes de código por linguagem informados pela API do GitHub, somados entre os repositórios públicos não arquivados. Atualização diária via GitHub Actions. Não representam nível de domínio ou horas trabalhadas.</sub>
+<sub>**Linguagens:** porcentagem dos bytes de código detectados pelo GitHub nos repositórios públicos não arquivados. **Frameworks e ferramentas:** quantidade de projetos em que arquivos de configuração indicam seu uso (não são porcentagens de código). Atualização diária via GitHub Actions; a detecção pode não identificar tecnologias configuradas em caminhos não analisados.</sub>
 
 ---
 

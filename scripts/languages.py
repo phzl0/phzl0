@@ -45,66 +45,77 @@ def collect():
     return totals, included, projects
 
 def source_file(repo, path):
-    """Leia apenas arquivos de configuração da branch principal (sem executar código)."""
+    """Lê arquivos de dependências encontrados em qualquer subpasta."""
     import urllib.parse
     name = urllib.parse.quote(repo["name"], safe="")
     quoted = urllib.parse.quote(path, safe="/")
     try:
         item = get(f"/repos/{USER}/{name}/contents/{quoted}")
-        if not isinstance(item, dict) or item.get("type") != "file":
-            return ""
-        if item.get("encoding") == "base64":
-            return base64.b64decode(item.get("content", "")).decode("utf-8", "replace")[:150000]
-    except (urllib.error.HTTPError, ValueError, UnicodeError) as exc:
-        if isinstance(exc, urllib.error.HTTPError) and exc.code != 404:
+        if isinstance(item, dict) and item.get("type") == "file" and item.get("encoding") == "base64":
+            return base64.b64decode(item.get("content", "")).decode("utf-8", "replace")[:200000]
+    except urllib.error.HTTPError as exc:
+        if exc.code != 404:
             raise
     return ""
 
 
 def detect(projects):
-    """Contar repositórios por tecnologia, não percentuais de linhas de código."""
+    """Varre toda a árvore Git da branch principal e conta presença por repositório."""
     names = ["React", "Node.js", "Spring Boot", "FastAPI", "Docker", "n8n"]
     counts = collections.Counter()
     inspected = 0
+    skipped = 0
     for repo in projects:
-        files = {
-            path: source_file(repo, path)
-            for path in ("package.json", "frontend/package.json", "web/package.json",
-                         "backend/package.json", "pom.xml", "backend/pom.xml",
-                         "requirements.txt", "backend/requirements.txt",
-                         "pyproject.toml", "backend/pyproject.toml",
-                         "Dockerfile", "docker-compose.yml", "compose.yml",
-                         "docker-compose.yaml", "compose.yaml",
-                         ".github/workflows/n8n.yml")
-        }
+        branch = repo.get("default_branch")
+        if not branch:
+            continue
+        import urllib.parse
+        slug = urllib.parse.quote(repo["name"], safe="")
+        ref = urllib.parse.quote(branch, safe="")
+        tree = get(f"/repos/{USER}/{slug}/git/trees/{ref}?recursive=1")
+        if tree.get("truncated"):
+            skipped += 1
+            continue
+        entries = [entry["path"] for entry in tree.get("tree", [])
+                   if entry.get("type") == "blob"]
         inspected += 1
-        packages = "\n".join(files[p] for p in ("package.json", "frontend/package.json",
-                                                   "web/package.json", "backend/package.json"))
-        python_deps = "\n".join(files[p] for p in ("requirements.txt", "backend/requirements.txt",
-                                                      "pyproject.toml", "backend/pyproject.toml"))
-        pom = files["pom.xml"] + "\n" + files["backend/pom.xml"]
+        candidates = []
+        for path in entries:
+            base = path.rsplit("/", 1)[-1].lower()
+            if base in ("package.json", "pom.xml", "build.gradle", "build.gradle.kts",
+                        "requirements.txt", "pyproject.toml", "pipfile",
+                        "dockerfile", "compose.yaml", "compose.yml",
+                        "docker-compose.yml", "docker-compose.yaml") or base.endswith(".dockerfile"):
+                # Não varrer dependências empacotadas de terceiros.
+                if not any(p in path.lower().split("/") for p in
+                           ("node_modules", ".venv", "venv", "vendor", "dist", "build", ".git")):
+                    candidates.append(path)
         found = set()
-        if re.search(r'"react"\s*:', packages):
-            found.add("React")
-        if re.search(r'"@types/node"\s*:|"node"\s*:', packages) or (
-            packages and re.search(r'"(express|fastify|koa|nestjs|@nestjs/core)"\s*:', packages)
-        ):
-            found.add("Node.js")
-        if "spring-boot" in pom:
-            found.add("Spring Boot")
-        if re.search(r'(?im)^\s*fastapi(?:\[.*?\])?\s*(?:[=<>!~]|$)', python_deps):
-            found.add("FastAPI")
-        if any(files[k] for k in ("Dockerfile", "docker-compose.yml", "compose.yml",
-                                  "docker-compose.yaml", "compose.yaml")):
-            found.add("Docker")
-        if re.search(r'"n8n"\s*:|"n8n-nodes-' , packages) or files[".github/workflows/n8n.yml"]:
-            found.add("n8n")
+        for path in candidates:
+            base = path.rsplit("/", 1)[-1].lower()
+            if base == "dockerfile" or base.endswith(".dockerfile") or base in (
+                "docker-compose.yml", "docker-compose.yaml", "compose.yaml", "compose.yml"):
+                found.add("Docker")
+                continue
+            text = source_file(repo, path)
+            if base == "package.json":
+                if re.search(r'"react"\s*:', text):
+                    found.add("React")
+                if re.search(r'"(@types/node|express|fastify|koa|@nestjs/core)"\s*:', text):
+                    found.add("Node.js")
+                if re.search(r'"n8n"\s*:|"n8n-nodes-[^"]+"\s*:', text):
+                    found.add("n8n")
+            if base in ("pom.xml", "build.gradle", "build.gradle.kts") and "spring-boot" in text:
+                found.add("Spring Boot")
+            if base in ("requirements.txt", "pyproject.toml", "pipfile"):
+                if re.search(r'(?im)(^|["\\s])fastapi(?:\\[[^]]*\\])?\\s*(?:[=<>!~"]|$)', text):
+                    found.add("FastAPI")
         for name in found:
             counts[name] += 1
-    return [(name, counts[name]) for name in names if counts[name]], inspected
+    return [(name, counts[name]) for name in names if counts[name]], inspected, skipped
 
 
-def render(totals, included, technologies, inspected):
+def render(totals, included, technologies, inspected, skipped):
     total_bytes = sum(totals.values())
     ranked = totals.most_common()
     top = ranked[:7]
@@ -141,7 +152,7 @@ def render(totals, included, technologies, inspected):
     parts += [
         '<path d="M28 291 H752" stroke="#2d473d"/>',
         '<text x="28" y="315" font-size="13" fill="#dce9e2" font-weight="bold">Frameworks e ferramentas identificados</text>',
-        f'<text x="28" y="333" font-size="10" fill="#92a99e">Projetos com evidência nos arquivos de configuração · base: {inspected} repositórios públicos</text>',
+        f'<text x="28" y="333" font-size="10" fill="#92a99e">Tecnologias identificadas em {inspected} repositórios; {skipped} árvores grandes não analisadas</text>',
     ]
     if technologies:
         for i, (name, count) in enumerate(technologies[:8]):
@@ -164,8 +175,8 @@ def render(totals, included, technologies, inspected):
 
 def main():
     totals, included, projects = collect()
-    technologies, inspected = detect(projects)
-    Path("assets/language-donut.svg").write_text(render(totals, included, technologies, inspected), encoding="utf-8")
+    technologies, inspected, skipped = detect(projects)
+    Path("assets/language-donut.svg").write_text(render(totals, included, technologies, inspected, skipped), encoding="utf-8")
 
 if __name__ == "__main__":
     main()

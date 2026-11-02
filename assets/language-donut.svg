@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="350" viewBox="0 0 780 350" role="img" aria-labelledby="title desc">
+<title id="title">Linguagens dos repositórios públicos de phzl0</title>
+<desc id="desc">Percentuais calculados a partir dos bytes de linguagens identificados pelo GitHub em todos os repositórios públicos não arquivados.</desc>
+<rect x="1" y="1" width="778" height="348" rx="13" fill="#0d1519" stroke="#355348"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="28" y="35" font-size="12" letter-spacing="2" fill="#83b49f">LANGUAGE ANALYTICS</text>
+<text x="28" y="63" font-size="22" font-weight="bold" fill="#e5eee9">Linguagens utilizadas</text>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#20342e" stroke-width="27"/>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#79b99c" stroke-width="27" stroke-dasharray="203.406 368.364" stroke-dashoffset="-0.000" transform="rotate(-90 172 170)"><title>JavaScript: 35.6%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#4d8c7a" stroke-width="27" stroke-dasharray="131.050 440.720" stroke-dashoffset="-203.406" transform="rotate(-90 172 170)"><title>Python: 22.9%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#a5cbb9" stroke-width="27" stroke-dasharray="95.551 476.219" stroke-dashoffset="-334.456" transform="rotate(-90 172 170)"><title>TypeScript: 16.7%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#598eac" stroke-width="27" stroke-dasharray="55.376 516.394" stroke-dashoffset="-430.007" transform="rotate(-90 172 170)"><title>Java: 9.7%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#a5a3c9" stroke-width="27" stroke-dasharray="45.630 526.140" stroke-dashoffset="-485.382" transform="rotate(-90 172 170)"><title>HTML: 8.0%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#bfaf83" stroke-width="27" stroke-dasharray="39.747 532.023" stroke-dashoffset="-531.012" transform="rotate(-90 172 170)"><title>CSS: 7.0%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#668976" stroke-width="27" stroke-dasharray="0.581 571.189" stroke-dashoffset="-570.759" transform="rotate(-90 172 170)"><title>Shell: 0.1%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#526b70" stroke-width="27" stroke-dasharray="0.430 571.340" stroke-dashoffset="-571.340" transform="rotate(-90 172 170)"><title>Outras: 0.1%</title></circle>
+<text x="172" y="167" text-anchor="middle" font-size="23" font-weight="bold" fill="#e9f2ed">100%</text>
+<text x="172" y="189" text-anchor="middle" font-size="12" fill="#9bb6a8">7 repositórios</text>
+<rect x="355" y="102" width="12" height="12" rx="3" fill="#79b99c"/>
+<text x="376" y="112" font-size="14" fill="#d5e6de">JavaScript</text>
+<text x="376" y="132" font-size="18" font-weight="bold" fill="#aed7c2">35.6%</text>
+<rect x="355" y="150" width="12" height="12" rx="3" fill="#4d8c7a"/>
+<text x="376" y="160" font-size="14" fill="#d5e6de">Python</text>
+<text x="376" y="180" font-size="18" font-weight="bold" fill="#aed7c2">22.9%</text>
+<rect x="355" y="198" width="12" height="12" rx="3" fill="#a5cbb9"/>
+<text x="376" y="208" font-size="14" fill="#d5e6de">TypeScript</text>
+<text x="376" y="228" font-size="18" font-weight="bold" fill="#aed7c2">16.7%</text>
+<rect x="355" y="246" width="12" height="12" rx="3" fill="#598eac"/>
+<text x="376" y="256" font-size="14" fill="#d5e6de">Java</text>
+<text x="376" y="276" font-size="18" font-weight="bold" fill="#aed7c2">9.7%</text>
+<rect x="564" y="102" width="12" height="12" rx="3" fill="#a5a3c9"/>
+<text x="585" y="112" font-size="14" fill="#d5e6de">HTML</text>
+<text x="585" y="132" font-size="18" font-weight="bold" fill="#aed7c2">8.0%</text>
+<rect x="564" y="150" width="12" height="12" rx="3" fill="#bfaf83"/>
+<text x="585" y="160" font-size="14" fill="#d5e6de">CSS</text>
+<text x="585" y="180" font-size="18" font-weight="bold" fill="#aed7c2">7.0%</text>
+<rect x="564" y="198" width="12" height="12" rx="3" fill="#668976"/>
+<text x="585" y="208" font-size="14" fill="#d5e6de">Shell</text>
+<text x="585" y="228" font-size="18" font-weight="bold" fill="#aed7c2">0.1%</text>
+<rect x="564" y="246" width="12" height="12" rx="3" fill="#526b70"/>
+<text x="585" y="256" font-size="14" fill="#d5e6de">Outras</text>
+<text x="585" y="276" font-size="18" font-weight="bold" fill="#aed7c2">0.1%</text>
+<path d="M28 301 H752" stroke="#2d473d"/>
+<text x="28" y="323" font-size="11" fill="#91a99f">Por bytes detectados pelo GitHub · Atualizado em 02/11/2026 UTC</text>
+</g></svg>

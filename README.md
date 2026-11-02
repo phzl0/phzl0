@@ -4,9 +4,9 @@
 
 <img src="https://skillicons.dev/icons?i=java,js,html,css,spring,nodejs,postgres,mysql,mongodb,linux,git,github,docker,python,aws&perline=15&theme=dark" alt="Tecnologias e ferramentas" />
 
-<a href="mailto:pauloalmeida1478965@gmail.com"><img src="https://img.shields.io/badge/E--mail-253b36?style=flat-square&logo=gmail&logoColor=9dbba7&labelColor=14211e" alt="E-mail" /></a>
-<a href="https://wa.me/5511978988489"><img src="https://img.shields.io/badge/WhatsApp-253b36?style=flat-square&logo=whatsapp&logoColor=9dbba7&labelColor=14211e" alt="WhatsApp" /></a>
-<a href="https://github.com/phzl0"><img src="https://img.shields.io/badge/GitHub-253b36?style=flat-square&logo=github&logoColor=9dbba7&labelColor=14211e" alt="GitHub" /></a>
+<a href="mailto:pauloalmeida1478965@gmail.com"><img src="https://img.shields.io/badge/E--mail-253b50?style=flat-square&logo=gmail&logoColor=d5d9e5&labelColor=111824" alt="E-mail" /></a>
+<a href="https://wa.me/5511978988489"><img src="https://img.shields.io/badge/WhatsApp-284338?style=flat-square&logo=whatsapp&logoColor=d5d9e5&labelColor=111824" alt="WhatsApp" /></a>
+<a href="https://github.com/phzl0"><img src="https://img.shields.io/badge/GitHub-35304d?style=flat-square&logo=github&logoColor=d5d9e5&labelColor=111824" alt="GitHub" /></a>
 
 <sub>Desenvolvimento de software · Integração de sistemas · Dados e automação</sub>
 

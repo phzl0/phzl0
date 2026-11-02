@@ -108,7 +108,7 @@ def detect(projects):
             if base in ("pom.xml", "build.gradle", "build.gradle.kts") and "spring-boot" in text:
                 found.add("Spring Boot")
             if base in ("requirements.txt", "pyproject.toml", "pipfile"):
-                if re.search(r'(?im)(^|["\\s])fastapi(?:\\[[^]]*\\])?\\s*(?:[=<>!~"]|$)', text):
+                if re.search(r'(?im)(^|["\s])fastapi(?:\[[^]]*\])?\s*(?:[=<>!~"]|$)', text):
                     found.add("FastAPI")
         for name in found:
             counts[name] += 1

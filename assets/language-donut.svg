@@ -6,31 +6,31 @@
 <text x="28" y="35" font-size="12" letter-spacing="2" fill="#83b49f">LANGUAGE ANALYTICS</text>
 <text x="28" y="63" font-size="22" font-weight="bold" fill="#e5eee9">Linguagens utilizadas</text>
 <circle cx="172" cy="170" r="91" fill="none" stroke="#20342e" stroke-width="27"/>
-<circle cx="172" cy="170" r="91" fill="none" stroke="#79b99c" stroke-width="27" stroke-dasharray="202.964 368.805" stroke-dashoffset="-0.000" transform="rotate(-90 172 170)"><title>JavaScript: 35.5%</title></circle>
-<circle cx="172" cy="170" r="91" fill="none" stroke="#4d8c7a" stroke-width="27" stroke-dasharray="132.006 439.763" stroke-dashoffset="-202.964" transform="rotate(-90 172 170)"><title>Python: 23.1%</title></circle>
-<circle cx="172" cy="170" r="91" fill="none" stroke="#a5cbb9" stroke-width="27" stroke-dasharray="95.343 476.426" stroke-dashoffset="-334.971" transform="rotate(-90 172 170)"><title>TypeScript: 16.7%</title></circle>
-<circle cx="172" cy="170" r="91" fill="none" stroke="#598eac" stroke-width="27" stroke-dasharray="55.255 516.514" stroke-dashoffset="-430.314" transform="rotate(-90 172 170)"><title>Java: 9.7%</title></circle>
-<circle cx="172" cy="170" r="91" fill="none" stroke="#a5a3c9" stroke-width="27" stroke-dasharray="45.531 526.239" stroke-dashoffset="-485.570" transform="rotate(-90 172 170)"><title>HTML: 8.0%</title></circle>
-<circle cx="172" cy="170" r="91" fill="none" stroke="#bfaf83" stroke-width="27" stroke-dasharray="39.661 532.109" stroke-dashoffset="-531.100" transform="rotate(-90 172 170)"><title>CSS: 6.9%</title></circle>
-<circle cx="172" cy="170" r="91" fill="none" stroke="#668976" stroke-width="27" stroke-dasharray="0.580 571.190" stroke-dashoffset="-570.761" transform="rotate(-90 172 170)"><title>Shell: 0.1%</title></circle>
-<circle cx="172" cy="170" r="91" fill="none" stroke="#526b70" stroke-width="27" stroke-dasharray="0.429 571.341" stroke-dashoffset="-571.341" transform="rotate(-90 172 170)"><title>Outras: 0.1%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#79b99c" stroke-width="27" stroke-dasharray="201.080 370.690" stroke-dashoffset="-0.000" transform="rotate(-90 172 170)"><title>JavaScript: 35.2%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#4d8c7a" stroke-width="27" stroke-dasharray="133.206 438.564" stroke-dashoffset="-201.080" transform="rotate(-90 172 170)"><title>Python: 23.3%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#a5cbb9" stroke-width="27" stroke-dasharray="94.458 477.312" stroke-dashoffset="-334.286" transform="rotate(-90 172 170)"><title>TypeScript: 16.5%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#598eac" stroke-width="27" stroke-dasharray="54.742 517.027" stroke-dashoffset="-428.744" transform="rotate(-90 172 170)"><title>Java: 9.6%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#a5a3c9" stroke-width="27" stroke-dasharray="47.832 523.938" stroke-dashoffset="-483.487" transform="rotate(-90 172 170)"><title>HTML: 8.4%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#bfaf83" stroke-width="27" stroke-dasharray="39.292 532.478" stroke-dashoffset="-531.319" transform="rotate(-90 172 170)"><title>CSS: 6.9%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#668976" stroke-width="27" stroke-dasharray="0.733 571.036" stroke-dashoffset="-570.611" transform="rotate(-90 172 170)"><title>Shell: 0.1%</title></circle>
+<circle cx="172" cy="170" r="91" fill="none" stroke="#526b70" stroke-width="27" stroke-dasharray="0.425 571.345" stroke-dashoffset="-571.345" transform="rotate(-90 172 170)"><title>Outras: 0.1%</title></circle>
 <text x="172" y="167" text-anchor="middle" font-size="23" font-weight="bold" fill="#e9f2ed">100%</text>
 <text x="172" y="189" text-anchor="middle" font-size="12" fill="#9bb6a8">7 repositórios</text>
 <rect x="355" y="102" width="12" height="12" rx="3" fill="#79b99c"/>
 <text x="376" y="112" font-size="12" fill="#d5e6de">JavaScript</text>
-<text x="376" y="132" font-size="15" font-weight="bold" fill="#aed7c2">35.5%</text>
+<text x="376" y="132" font-size="15" font-weight="bold" fill="#aed7c2">35.2%</text>
 <rect x="355" y="150" width="12" height="12" rx="3" fill="#4d8c7a"/>
 <text x="376" y="160" font-size="12" fill="#d5e6de">Python</text>
-<text x="376" y="180" font-size="15" font-weight="bold" fill="#aed7c2">23.1%</text>
+<text x="376" y="180" font-size="15" font-weight="bold" fill="#aed7c2">23.3%</text>
 <rect x="355" y="198" width="12" height="12" rx="3" fill="#a5cbb9"/>
 <text x="376" y="208" font-size="12" fill="#d5e6de">TypeScript</text>
-<text x="376" y="228" font-size="15" font-weight="bold" fill="#aed7c2">16.7%</text>
+<text x="376" y="228" font-size="15" font-weight="bold" fill="#aed7c2">16.5%</text>
 <rect x="355" y="246" width="12" height="12" rx="3" fill="#598eac"/>
 <text x="376" y="256" font-size="12" fill="#d5e6de">Java</text>
-<text x="376" y="276" font-size="15" font-weight="bold" fill="#aed7c2">9.7%</text>
+<text x="376" y="276" font-size="15" font-weight="bold" fill="#aed7c2">9.6%</text>
 <rect x="564" y="102" width="12" height="12" rx="3" fill="#a5a3c9"/>
 <text x="585" y="112" font-size="12" fill="#d5e6de">HTML</text>
-<text x="585" y="132" font-size="15" font-weight="bold" fill="#aed7c2">8.0%</text>
+<text x="585" y="132" font-size="15" font-weight="bold" fill="#aed7c2">8.4%</text>
 <rect x="564" y="150" width="12" height="12" rx="3" fill="#bfaf83"/>
 <text x="585" y="160" font-size="12" fill="#d5e6de">CSS</text>
 <text x="585" y="180" font-size="15" font-weight="bold" fill="#aed7c2">6.9%</text>
@@ -42,22 +42,22 @@
 <text x="585" y="276" font-size="15" font-weight="bold" fill="#aed7c2">0.1%</text>
 <path d="M28 291 H752" stroke="#2d473d"/>
 <text x="28" y="315" font-size="13" fill="#dce9e2" font-weight="bold">Frameworks e ferramentas identificados</text>
-<text x="28" y="333" font-size="10" fill="#92a99e">% dos 7 repositórios analisados com cada tecnologia</text>
+<text x="28" y="333" font-size="10" fill="#92a99e">% dos 7 repositórios analisados que utilizam a tecnologia; 0 não analisados</text>
 <rect x="28" y="347" width="173" height="29" rx="6" fill="#182a25" stroke="#345748"/>
 <text x="38" y="366" font-size="12" fill="#d6e7df">React</text>
-<text x="190" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">42.9%</text>
+<text x="192" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">42.9%</text><title>3 de 7 repositórios</title>
 <rect x="213" y="347" width="173" height="29" rx="6" fill="#182a25" stroke="#345748"/>
 <text x="223" y="366" font-size="12" fill="#d6e7df">Node.js</text>
-<text x="375" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">14.3%</text>
+<text x="377" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">14.3%</text><title>1 de 7 repositórios</title>
 <rect x="398" y="347" width="173" height="29" rx="6" fill="#182a25" stroke="#345748"/>
 <text x="408" y="366" font-size="12" fill="#d6e7df">Spring Boot</text>
-<text x="560" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">14.3%</text>
+<text x="562" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">14.3%</text><title>1 de 7 repositórios</title>
 <rect x="583" y="347" width="173" height="29" rx="6" fill="#182a25" stroke="#345748"/>
 <text x="593" y="366" font-size="12" fill="#d6e7df">FastAPI</text>
-<text x="745" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">28.6%</text>
+<text x="747" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">28.6%</text><title>2 de 7 repositórios</title>
 <rect x="28" y="384" width="173" height="29" rx="6" fill="#182a25" stroke="#345748"/>
 <text x="38" y="403" font-size="12" fill="#d6e7df">Docker</text>
-<text x="190" y="403" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">57.1%</text>
+<text x="192" y="403" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">57.1%</text><title>4 de 7 repositórios</title>
 <path d="M28 418 H752" stroke="#2d473d"/>
 <text x="28" y="436" font-size="11" fill="#91a99f">Por bytes detectados pelo GitHub · Atualizado em 02/11/2026 UTC</text>
 </g></svg>

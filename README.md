@@ -107,17 +107,17 @@ Assistente de inteligência artificial com **chat web, conversas salvas, perfil 
 
 ---
 
-## Dashboard de contribuições
+## Linguagens utilizadas nos repositórios
 
 <div align="center">
 
-<a href="https://github.com/phzl0?tab=overview">
-<img src="./assets/contributions-dashboard.svg" width="100%" alt="Dashboard com contribuições, dias ativos, sequências e gráfico das últimas 12 semanas" />
+<a href="https://github.com/phzl0?tab=repositories">
+<img src="./assets/language-donut.svg" width="100%" alt="Gráfico circular com proporções percentuais das linguagens detectadas em todos os repositórios públicos" />
 </a>
 
 </div>
 
-<sub>Dados públicos de contribuições do GitHub · Atualização automática diária via GitHub Actions · Não representa horas trabalhadas nem nível de proficiência.</sub>
+<sub>Percentuais calculados a partir dos bytes de código por linguagem informados pela API do GitHub, somados entre os repositórios públicos não arquivados. Atualização diária via GitHub Actions. Não representam nível de domínio ou horas trabalhadas.</sub>
 
 ---
 

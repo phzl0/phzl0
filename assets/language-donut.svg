@@ -42,22 +42,22 @@
 <text x="585" y="276" font-size="15" font-weight="bold" fill="#aed7c2">0.1%</text>
 <path d="M28 291 H752" stroke="#2d473d"/>
 <text x="28" y="315" font-size="13" fill="#dce9e2" font-weight="bold">Frameworks e ferramentas identificados</text>
-<text x="28" y="333" font-size="10" fill="#92a99e">Tecnologias identificadas em 7 repositórios; 0 árvores grandes não analisadas</text>
+<text x="28" y="333" font-size="10" fill="#92a99e">% dos 7 repositórios analisados com cada tecnologia</text>
 <rect x="28" y="347" width="173" height="29" rx="6" fill="#182a25" stroke="#345748"/>
 <text x="38" y="366" font-size="12" fill="#d6e7df">React</text>
-<text x="190" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">3 proj.</text>
+<text x="190" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">42.9%</text>
 <rect x="213" y="347" width="173" height="29" rx="6" fill="#182a25" stroke="#345748"/>
 <text x="223" y="366" font-size="12" fill="#d6e7df">Node.js</text>
-<text x="375" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">1 proj.</text>
+<text x="375" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">14.3%</text>
 <rect x="398" y="347" width="173" height="29" rx="6" fill="#182a25" stroke="#345748"/>
 <text x="408" y="366" font-size="12" fill="#d6e7df">Spring Boot</text>
-<text x="560" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">1 proj.</text>
+<text x="560" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">14.3%</text>
 <rect x="583" y="347" width="173" height="29" rx="6" fill="#182a25" stroke="#345748"/>
 <text x="593" y="366" font-size="12" fill="#d6e7df">FastAPI</text>
-<text x="745" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">2 proj.</text>
+<text x="745" y="366" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">28.6%</text>
 <rect x="28" y="384" width="173" height="29" rx="6" fill="#182a25" stroke="#345748"/>
 <text x="38" y="403" font-size="12" fill="#d6e7df">Docker</text>
-<text x="190" y="403" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">4 proj.</text>
+<text x="190" y="403" text-anchor="end" font-size="11" font-weight="bold" fill="#90c8aa">57.1%</text>
 <path d="M28 418 H752" stroke="#2d473d"/>
 <text x="28" y="436" font-size="11" fill="#91a99f">Por bytes detectados pelo GitHub · Atualizado em 02/11/2026 UTC</text>
 </g></svg>

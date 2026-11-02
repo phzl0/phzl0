@@ -121,17 +121,17 @@ def render(totals, included, technologies, inspected, skipped):
     top = ranked[:7]
     if len(ranked) > 7:
         top.append(("Outras", sum(v for _, v in ranked[7:])))
-    palette = ["#6daec6", "#a58bcc", "#77b89e", "#d6a577", "#748fc4", "#b1c0d0", "#9dba8b", "#71838f"]
+    palette = ["#00D9FF", "#B36BFF", "#00E89A", "#FF9F43", "#518BFF", "#FF5F9E", "#D9F04A", "#FF6B57"]
     cx, cy, radius = 172, 170, 91
     circumference = 2 * math.pi * radius
     parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="780" height="445" viewBox="0 0 780 445" role="img" aria-labelledby="title desc">',
         '<title id="title">Linguagens dos repositórios públicos de phzl0</title>',
         '<desc id="desc">Percentuais calculados a partir dos bytes de linguagens identificados pelo GitHub em todos os repositórios públicos não arquivados.</desc>',
-        '<rect x="1" y="1" width="778" height="443" rx="13" fill="#0d1519" stroke="#384863"/>',
+        '<rect x="1" y="1" width="778" height="443" rx="13" fill="#0d1519" stroke="#45577B"/>',
         '<g font-family="Arial,Helvetica,sans-serif">',
-        '<text x="28" y="35" font-size="12" letter-spacing="2" fill="#8ebee0">LANGUAGE ANALYTICS</text>',
+        '<text x="28" y="35" font-size="12" letter-spacing="2" fill="#54DBFF">LANGUAGE ANALYTICS</text>',
         '<text x="28" y="63" font-size="22" font-weight="bold" fill="#e5eee9">Linguagens utilizadas</text>',
-        f'<circle cx="{cx}" cy="{cy}" r="{radius}" fill="none" stroke="#273448" stroke-width="27"/>']
+        f'<circle cx="{cx}" cy="{cy}" r="{radius}" fill="none" stroke="#293750" stroke-width="27"/>']
     offset = 0.0
     for index, (lang, value) in enumerate(top):
         length = value / total_bytes * circumference
@@ -147,7 +147,7 @@ def render(totals, included, technologies, inspected, skipped):
         parts += [
             f'<rect x="{x}" y="{y-10}" width="12" height="12" rx="3" fill="{palette[i]}"/>',
             f'<text x="{x+21}" y="{y}" font-size="12" fill="#d5e6de">{html.escape(lang)}</text>',
-            f'<text x="{x+21}" y="{y+20}" font-size="15" font-weight="bold" fill="#a9cbe4">{value/total_bytes*100:.1f}%</text>',
+            f'<text x="{x+21}" y="{y+20}" font-size="15" font-weight="bold" fill="#94E7FF">{value/total_bytes*100:.1f}%</text>',
         ]
     parts += [
         '<path d="M28 291 H752" stroke="#2d473d"/>',
@@ -160,9 +160,9 @@ def render(totals, included, technologies, inspected, skipped):
             row = i // 4
             x, y = 28 + col * 185, 347 + row * 37
             label = html.escape(name)
-            parts.append(f'<rect x="{x}" y="{y}" width="173" height="29" rx="6" fill="#1a2534" stroke="#40516c"/>')
+            parts.append(f'<rect x="{x}" y="{y}" width="173" height="29" rx="6" fill="#192239" stroke="#485C87"/>')
             parts.append(f'<text x="{x + 10}" y="{y + 19}" font-size="12" fill="#d6e7df">{label}</text>')
-            parts.append(f'<text x="{x + 164}" y="{y + 19}" text-anchor="end" font-size="11" font-weight="bold" fill="#b5a4e4">{count / inspected * 100:.1f}%</text><title>{count} de {inspected} repositórios</title>')
+            parts.append(f'<text x="{x + 164}" y="{y + 19}" text-anchor="end" font-size="11" font-weight="bold" fill="#D3A8FF">{count / inspected * 100:.1f}%</text><title>{count} de {inspected} repositórios</title>')
     else:
         parts.append('<text x="28" y="365" font-size="12" fill="#9fb5a9">Nenhuma dependência reconhecida nos arquivos verificados</text>')
     today = dt.datetime.now(dt.timezone.utc).strftime("%d/%m/%Y")

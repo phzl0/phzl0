@@ -139,7 +139,7 @@ Laboratório de automação de processos integrado a um **ERP demonstrativo**, c
 ## Formação
 
 - **FATEC** — graduação tecnológica em andamento.
-- **Ensino Médio Técnico em Tecnologia da Informação**.
+- **Ensino Médio Técnico em Tecnologia da Informação — FIEB**.
 - **Estudos atuais:** Python, arquitetura backend, bancos de dados, computação em nuvem, agentes de IA e automação.
 
 ---

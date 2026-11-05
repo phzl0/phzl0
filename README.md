@@ -58,6 +58,8 @@ Estudo os fundamentos e as aplicações de **modelos de linguagem, agentes de IA
 | **Automação de processos com IA** | Conceitos de fluxos, gatilhos, integrações e orquestração de rotinas com n8n e agentes |
 | **Engenharia reversa** | Estudo de como aplicações e sistemas funcionam a partir de sua implementação e comportamento |
 
+**APIs de modelos de linguagem:** `Gemini API (Google)` · `OpenAI API (GPT)` — integração de modelos de IA em aplicações.
+
 **Ferramentas em estudo e experimentação:** `Ollama` · `Goose` · `Ruflo` · `n8n` · [**REA — Reverse Engineering Assistant**](https://github.com/morluto/rea) (estudo de ferramentas e conceitos de engenharia reversa)
 
 <sub>Conhecimentos introdutórios e experimentação prática; esta seção não indica certificação ou especialização profissional nessas tecnologias.</sub>

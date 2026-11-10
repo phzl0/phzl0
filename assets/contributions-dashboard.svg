@@ -12,7 +12,7 @@
 <text x="224" y="102" font-size="23" font-weight="bold" fill="#e4f0e9">17</text>
 <text x="224" y="123" font-size="10" fill="#91b29f">DIAS ATIVOS</text>
 <rect x="391" y="73" width="170" height="66" rx="8" fill="#162421" stroke="#29473b"/>
-<text x="405" y="102" font-size="23" font-weight="bold" fill="#e4f0e9">2</text>
+<text x="405" y="102" font-size="23" font-weight="bold" fill="#e4f0e9">0</text>
 <text x="405" y="123" font-size="10" fill="#91b29f">SEQUÊNCIA ATUAL</text>
 <rect x="572" y="73" width="170" height="66" rx="8" fill="#162421" stroke="#29473b"/>
 <text x="586" y="102" font-size="23" font-weight="bold" fill="#e4f0e9">6</text>
@@ -31,6 +31,6 @@
 <rect x="514" y="158" width="24" height="70" rx="4" fill="#579c7a"><title>Semana 11: 223 contribuições</title></rect>
 <rect x="561" y="223" width="24" height="5" rx="4" fill="#579c7a"><title>Semana 12: 4 contribuições</title></rect>
 <path d="M29 230H731" stroke="#385249"/>
-<text x="29" y="263" font-size="11" fill="#819a90">Atualizado em 09/11/2026 · dados públicos visíveis</text>
+<text x="29" y="263" font-size="11" fill="#819a90">Atualizado em 10/11/2026 · dados públicos visíveis</text>
 <text x="728" y="263" font-size="11" text-anchor="end" fill="#819a90">GitHub Actions</text>
 </g></svg>
